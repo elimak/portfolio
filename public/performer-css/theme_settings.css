@@ -1,0 +1,126 @@
+/* *** F O N T   F A M I L I E S  *** */
+
+@font-face {
+    font-family: 'CoreIconsRegular';
+    src: url('fonts/coreicons-webfont.eot');
+    src: url('fonts/coreicons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/coreicons-webfont.woff') format('woff'),
+         url('fonts/coreicons-webfont.ttf') format('truetype'),
+         url('fonts/coreicons-webfont.svg#coreiconsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:400;
+}
+
+.shortcode_iconbox .ico span {
+    font-family: 'CoreIconsRegular';
+}
+
+/* ***  F O N T   S E T T I N G S  *** */
+
+h1, h2, h3, h4, h5, h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
+	text-decoration:none!important;
+	padding:0;
+	color:#444444;
+	text-transform:uppercase;
+	font-family:'Open Sans', sans-serif!important;
+}
+
+header .menu > li > a,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.dropcap,
+.promo_button_block a.promo_button,
+.module_diagramm .chart,
+.module_diagramm .chart span,
+.price_item_btn a,
+.shortcode_button {	
+	font-family:'Open Sans', sans-serif!important;
+}
+
+* { 
+	font-family:Arial, Helvetica, sans-serif;
+	color:#464d52;
+}
+
+p, div, span {
+	font-size:13px;
+	line-height:18px;
+}
+
+input, button, select, textarea {
+	font-family:Arial, Helvetica, sans-serif!important;
+}
+
+h1, h2, h3, h4, h5, h6,
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family:'Open Sans', sans-serif!important;
+}
+
+h1, h1 span, h1 a {
+	font-size:43px;
+	line-height:45px;
+}
+h2, h2 span, h2 a {
+	font-size:34px;
+	line-height:36px;
+}
+h3, h3 span, h3 a {
+	font-size:24px;
+	line-height:26px;
+}
+h4, h4 span, h4 a {
+	font-size:20px;
+	line-height:22px;
+}
+h5, h5 span, h5 a {
+	font-size:18px;
+	line-height:20px;
+}
+h6, h6 span, h6 a {
+	font-size:16px;
+	line-height:18px;
+}
+
+@media only screen and (max-width: 760px) {
+	
+	h1, h1 span, h1 a {
+		font-size:35px;
+		line-height:37px;
+	}
+	h2, h2 span, h2 a {
+		font-size:30px;
+		line-height:32px;
+	}
+	h3, h3 span, h3 a {
+		font-size:26px;
+		line-height:28px;
+	}
+	h4, h4 span, h4 a {
+		font-size:20px;
+		line-height:22px;
+	}
+	h5, h5 span, h5 a {
+		font-size:16px;
+		line-height:18px;
+	}
+	h6, h6 span, h6 a {
+		font-size:14px;
+		line-height:16px;
+	}
+}
+
+
+/* ***  C O L O R   O P T I O N S  *** */
+
+header ul.menu > li > a {
+	color:#464d52;
+}

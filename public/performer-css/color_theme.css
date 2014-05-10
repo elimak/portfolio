@@ -1,0 +1,47 @@
+/* *** MAIN COLOR: #91b000 *** */
+
+::selection {background:#91b000;}
+::-moz-selection {background:#91b000;}
+
+header .sub-menu li,
+.mobile_menu,
+.highlighted_colored,
+blockquote.type2:before,
+hr.colored,
+.most_popular .price_item_title,
+.most_popular .price_item_btn a,
+.price_item_btn a:hover,
+.shortcode_button.btn_type5,
+.promo_button_block.type2 a.promo_button:hover {
+	background-color:#91b000;
+}
+.temp_class {
+	background-color:#91b000!important;
+}
+
+a,
+header .menu > li > a:hover,
+header .menu > li:hover > a,
+header .menu > li.current-menu-item > a,
+header .menu > li.current-menu-parent > a,
+.pre_footer .widget_twitter .tweet_time a,
+.widget_posts .post_title,
+.widget_nav_menu ul li a:hover,
+.widget_archive ul li a:hover,
+.widget_pages ul li a:hover,
+.widget_categories ul li a:hover,
+.widget_recent_entries ul li a:hover,
+.dropcap.colored,
+.contentarea ol li:before,
+.carouselslider .carousel_title h6 a,
+.gallery_item .gallery_title,
+.most_popular .price_item_cost h2,
+.most_popular .price_item_cost h2 span,
+.element .bg_title a:hover,
+.filter_navigation ul.optionset li a:hover,
+.filter_navigation ul.optionset li.selected a { 
+	color:#91b000;
+}
+.testimonials_list span.author {
+	color:#91b000!important;
+}

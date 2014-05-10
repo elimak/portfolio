@@ -1,0 +1,22 @@
+{
+	"name": "navigator-injector-backbone-command-setup",
+	"dependencies": {
+		"modernizr": "2.6.2",
+		"console-polyfill": "0.1.0",
+		"jquery": "2.0.3",
+		"requirejs": "2.1.9",
+		"require-handlebars-plugin": "0.4.0",
+		"navigator.js": "*",
+		"underscore": "1.5.2",
+		"backbone": "1.0.0",
+		"backbone-super": "1.0.0",
+		"backbone-injector": "*",
+		"backbone-command": "*",
+		"backbone-recursive-toJSON": "*",
+		"greensock-js": "1.10.2",
+		"hammerjs": "1.0.5",
+		"enquire": "2.1.0",
+		"stats.js": "*",
+		"todomvc-common": "0.1.8"
+	}
+}
