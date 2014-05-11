@@ -7,7 +7,7 @@
  */
 define([
     'hbs!templates/component/HeaderView',
-    'constant/States',
+    'constant/States'
 ], function (template, States) {
     var HeaderView = Backbone.View.extend({
 
@@ -23,22 +23,43 @@ define([
         },
 
         events: {
-            'click .logo_def'       : 'onRequestNavigation' ,
-            'click .logo_retina'    : 'onRequestNavigation' ,
-            'click #menu_home'      : 'onRequestNavigation' ,
-            'click #menu_portfolio' : 'onRequestNavigation' ,
-            'click #menu_resume'    : 'onRequestNavigation' ,
-            'click #menu_contact'   : 'onRequestNavigation'
+            'click .logo_def'               : '_onRequestNavigation' ,
+            'click .logo_retina'            : '_onRequestNavigation' ,
+            'click #mobile_menu_home'       : '_onRequestNavigationMobile' ,
+            'click #mobile_menu_portfolio'  : '_onRequestNavigationMobile' ,
+            'click #mobile_menu_resume'     : '_onRequestNavigationMobile' ,
+            'click #mobile_menu_contact'    : '_onRequestNavigationMobile' ,
+            'click #menu_home'      : '_onRequestNavigation' ,
+            'click #menu_portfolio' : '_onRequestNavigation' ,
+            'click #menu_resume'    : '_onRequestNavigation' ,
+            'click #menu_contact'   : '_onRequestNavigation',
+            'click .menu_toggler'   : '_onSlideMobileMenu'
         },
 
-        onRequestNavigation: function(e){
+        _onSlideMobileMenu: function(){
+            $( ".mobile_menu_wrapper" ).slideToggle(300);
+        },
+
+        _onRequestNavigationMobile: function(e){
+            e.preventDefault();
+            $( ".mobile_menu_wrapper" ).slideToggle(300);
+            this._onRequestNavigation(e);
+        },
+
+        _onRequestNavigation: function(e){
             e.preventDefault();
             var state = $(e.target).attr('href');
 
+            this._updateActiveMenu(state);
+            this.njs.request(state);
+        },
+
+        _updateActiveMenu: function(state){
+
             _.each([$( "#menu_home" ), $( "#menu_portfolio" ), $( "#menu_resume" ), $( "#menu_contact" )],
-                    function(element){
-                        element.removeClass("current-menu-parent");
-                    });
+                function(element){
+                    element.removeClass("current-menu-parent");
+                });
 
             switch(state){
                 case States.HOME.getLastSegment():
@@ -54,11 +75,10 @@ define([
                     $( "#menu_contact" ).addClass( "current-menu-parent" );
                     break;
             }
-
-            this.njs.request(state);
         },
 
         render: function() {
+
             this.$el.html(template({}));
             return this;
         },
@@ -66,6 +86,7 @@ define([
         transitionIn: function(callOnComplete) {
             this.$el.css({display:''});
             TweenLite.fromTo(this.$el, 0.5, {alpha:0}, {alpha:1, onComplete:callOnComplete});
+            this._updateActiveMenu(this.njs.getCurrentState().getLastSegment());
         },
 
         transitionOut: function(callOnComplete) {

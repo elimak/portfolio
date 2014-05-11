@@ -15,6 +15,8 @@ define([
 
     //components
     'view/component/HeaderView',
+    'view/component/TitleHomeView',
+    'view/component/TitleView',
 
     //MODELS
     'model/PortfolioCollection',
@@ -40,6 +42,8 @@ define([
 
     // components
     HeaderView,
+    TitleHomeView,
+    TitleView,
 
     //MODELS
     PortfolioCollection,
@@ -114,9 +118,12 @@ define([
            var appRecipe = this.stateViewMap.mapState(States.ALL.STATES).toView(AppView).withArguments({injector:this.injector});
 
             this.stateViewMap.mapState(States.HOME).toView(HomeView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#content");
+            this.stateViewMap.mapState(States.HOME).toView(TitleHomeView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#title");
+
             this.stateViewMap.mapState(States.PORTFOLIO).toView(PortfolioView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#content");
             this.stateViewMap.mapState(States.RESUME).toView(ResumeView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#content");
             this.stateViewMap.mapState(States.CONTACT).toView(ContactView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#content");
+            this.stateViewMap.mapState([States.PORTFOLIO,States.RESUME,States.CONTACT] ).toView(TitleView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#title");
 
             this.stateViewMap.mapState(States.ALL.STATES).toView(HeaderView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#header");
 

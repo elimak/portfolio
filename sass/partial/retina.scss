@@ -1,0 +1,552 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  header{
+    .logo{
+      img.logo_def {
+        display:none!important;
+      }
+      img.logo_retina {
+        display:block!important;
+      }
+    }
+  }
+
+  img.pic_def{
+    display:none!important;
+  }
+  img.pic_retina{
+    display:block!important;
+  }
+
+  .menu_toggler:before {
+    background-size:275px 76px!important;
+    background-position:-44px -42px;
+    background:url(../img/retina/performer_buttons.png) no-repeat -44px -42px;
+  }
+
+  .og-grid a span.plus_icon:before {
+    background-size:275px 76px!important;
+    background:url(../img/performer_buttons.png) no-repeat -226px 0;
+  }
+  .nivo-prevNav {
+    background-size:275px 76px!important;
+    background:url(../img/performer_buttons.png) no-repeat -28px -0px!important;
+  }
+  .nivo-nextNav {
+    background-size:275px 76px!important;
+    background:url(../img/performer_buttons.png) no-repeat -51px -0px!important;
+  }
+
+  header .menu > li:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -44px -42px;
+  }
+  .page_title_block a:before,
+  .page_title_block span:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -12px -63px;
+  }
+  .btn2top:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -21px -63px;
+  }
+  .shortcode_accordion_item_title .ico,
+  .shortcode_toggles_item_title .ico {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -0px -53px ;
+  }
+  .shortcode_iconbox .ico:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -73px 0;
+  }
+  .carousel-previous,
+  .center_title .btn_carousel_left {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -245px -51px!important;
+  }
+  .carousel-next,
+  .center_title .btn_carousel_right {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -226px -51px!important;
+  }
+  .carouselslider .meta span:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -1px -63px;
+  }
+  .module_teamslider .smallproflinks .link_wrapper:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -1px -63px;
+  }
+  .testimonials_list .item span.company:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -1px -63px;
+  }
+  .tp-leftarrow {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -28px -0px!important;
+  }
+  .tp-rightarrow {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -51px -0px!important;
+  }
+  .shortcode_messagebox .box_close {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -12px -1px;
+  }
+  .shortcode_messagebox.box_type2 .box_close {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -20px -1px;
+  }
+  .filter_navigation ul.optionset li:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -1px -63px;
+  }
+  .blogpost_meta span:after {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -1px -63px;
+  }
+  .comment_info span:after {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -1px -63px;
+  }
+  .blogpost_control a.post_prev:after {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -12px -63px;
+  }
+  .blogpost_control a.post_prev:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -6px -1px;
+  }
+  .blogpost_control a.post_next:after {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat 0 -1px;
+  }
+  blockquote:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -0px -32px #444444;
+  }
+  .contentarea ul.list_type1 li:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat 0 -10px;
+  }
+  .contentarea ul.list_type2 li:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -9px -10px;
+  }
+  .contentarea ul.list_type3 li:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -18px -10px;
+  }
+  .contentarea ul.list_type4 li:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -0px -21px;
+  }
+  .contentarea ul.list_type5 li:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -9px -21px;
+  }
+  .contentarea ul.list_type6 li:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat -18px -21px;
+  }
+  .widget_nav_menu ul li a:before,
+  .widget_archive ul li a:before,
+  .widget_pages ul li a:before,
+  .widget_categories ul li a:before,
+  .widget_recent_entries ul li a:before {
+    background-size:275px 76px!important;
+    background:url(../img/retina/performer_buttons.png) no-repeat 0 0;
+  }
+
+  .carouselslider .item .carousel_posttype.posttype-text {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat 0 -200px;
+  }
+  .carouselslider .item .carousel_posttype.posttype-audio {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -60px -200px;
+  }
+  .carouselslider .item .carousel_posttype.posttype-aside {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -120px -200px;
+  }
+  .carouselslider .item .carousel_posttype.posttype-chat {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -180px -200px;
+  }
+  .carouselslider .item .carousel_posttype.posttype-video {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -240px -200px;
+  }
+  .carouselslider .item .carousel_posttype.posttype-gallery {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -300px -200px;
+  }
+  .carouselslider .item .carousel_posttype.posttype-image {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -360px -200px;
+  }
+  .carouselslider .item .carousel_posttype.posttype-quote {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -420px -200px;
+  }
+  .carouselslider .item .carousel_posttype.posttype-link {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -480px -200px;
+  }
+  .module_teamslider .smallproflinks a.facebook_link {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -360px -160px;
+  }
+  .module_teamslider .smallproflinks a.twitter_link {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -380px -160px;
+  }
+  .module_teamslider .smallproflinks a.tumbler_link {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -400px -160px;
+  }
+  .post_type_aside {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat 0px -160px;
+  }
+  .post_type_music {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -40px -160px;
+  }
+  .post_type_chat {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -80px -160px;
+  }
+  .post_type_gallery {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -120px -160px;
+  }
+  .post_type_image {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -160px -160px;
+  }
+  .post_type_link {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -200px -160px;
+  }
+  .post_type_quote {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -240px -160px;
+  }
+  .post_type_text {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -280px -160px;
+  }
+  .post_type_video {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -320px -160px;
+  }
+  .socials_list li a.ico_social-delicious {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -400px -0px;
+  }
+  .socials_list li a.ico_social-dribbble {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -520px -0px;
+  }
+  .socials_list li a.ico_social-facebook {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -0px -0px;
+  }
+  .socials_list li a.ico_social-flickr {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -360px -40px;
+  }
+  .socials_list li a.ico_social-gplus {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -320px -0px;
+  }
+  .socials_list li a.ico_social-instagram {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -120px -80px;
+  }
+  .socials_list li a.ico_social-linked {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -280px -40px;
+  }
+  .socials_list li a.ico_social-pinterest {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -320px -40px;
+  }
+  .socials_list li a.ico_social-tumblr {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -360px -0px;
+  }
+  .socials_list li a.ico_social-twitter {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -120px -0px;
+  }
+  .socials_list li a.ico_social-vimeo {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -120px -40px;
+  }
+  .socials_list li a.ico_social-youtube {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) no-repeat -160px -40px;
+  }
+  .ico_socialize_facebook1 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) 0 0;
+  }
+  .ico_socialize_facebook2 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -40px 0;
+  }
+  .ico_socialize_twitter1 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -80px 0;
+  }
+  .ico_socialize_twitter2 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -120px 0;
+  }
+  .ico_socialize_twitter3 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -160px 0;
+  }
+  .ico_socialize_digg1 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -200px 0;
+  }
+  .ico_socialize_digg2 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -240px 0;
+  }
+  .ico_socialize_google1 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -280px 0;
+  }
+  .ico_socialize_google2 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -320px 0;
+  }
+  .ico_socialize_tumbler {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -360px 0;
+  }
+  .ico_socialize_delicious {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -400px 0;
+  }
+  .ico_socialize_plixi {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -440px 0;
+  }
+  .ico_socialize_dribbble1 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -480px 0;
+  }
+  .ico_socialize_dribbble2 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -520px 0;
+  }
+  .ico_socialize_stubleUpon {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) 0 -40px;
+  }
+  .ico_socialize_lastfm {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -40px -40px;
+  }
+  .ico_socialize_moby {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -80px -40px;
+  }
+  .ico_socialize_vimeo {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -120px -40px;
+  }
+  .ico_socialize_youtube1 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -160px -40px;
+  }
+  .ico_socialize_youtube2 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -200px -40px;
+  }
+  .ico_socialize_myspace {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -240px -40px;
+  }
+  .ico_socialize_linkedIn {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -280px -40px;
+  }
+  .ico_socialize_pinterest {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -320px -40px;
+  }
+  .ico_socialize_flickr {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -360px -40px;
+  }
+  .ico_socialize_vk1 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -400px -40px;
+  }
+  .ico_socialize_vk2 {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -440px -40px;
+  }
+  .ico_socialize_odnoklassniki {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -480px -40px;
+  }
+  .ico_socialize_gowalla {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -520px -40px;
+  }
+  .ico_socialize_dropbox {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) 0 -80px;
+  }
+  .ico_socialize_skype {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -40px -80px;
+  }
+  .ico_socialize_iChat {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -80px -80px;
+  }
+  .ico_socialize_instagram {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -120px -80px;
+  }
+  .ico_socialize_evernote {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -160px -80px;
+  }
+  .ico_socialize_deviantart {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -200px -80px;
+  }
+  .ico_socialize_blogspot {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -240px -80px;
+  }
+  .ico_socialize_reddit {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -280px -80px;
+  }
+  .ico_socialize_technorati {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -320px -80px;
+  }
+  .ico_socialize_yahoo {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -360px -80px;
+  }
+  .ico_socialize_diigo {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -400px -80px;
+  }
+  .ico_socialize_blinklist {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -440px -80px;
+  }
+  .ico_socialize_bing {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -480px -80px;
+  }
+  .ico_socialize_behnce {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -520px -80px;
+  }
+  .ico_socialize_picasa {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) 0 -120px;
+  }
+  .ico_socialize_forrst {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -40px -120px;
+  }
+  .ico_socialize_ffffound {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -80px -120px;
+  }
+  .ico_socialize_viddler {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -120px -120px;
+  }
+  .ico_socialize_friendfeed {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -160px -120px;
+  }
+  .ico_socialize_mobileMe {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -200px -120px;
+  }
+  .ico_socialize_wordpress {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -240px -120px;
+  }
+  .ico_socialize_drupal {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -280px -120px;
+  }
+  .ico_socialize_paypal {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -320px -120px;
+  }
+  .ico_socialize_share {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -360px -120px;
+  }
+  .ico_socialize_mail {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -400px -120px;
+  }
+  .ico_socialize_rss {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -440px -120px;
+  }
+  .ico_socialize_home {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -480px -120px;
+  }
+  .ico_socialize_phone {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -520px -120px;
+  }
+  .ico_contact.ico_contact-address {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -529px -129px;
+  }
+  .ico_contact.ico_contact-phone {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -489px -129px;
+  }
+  .ico_contact.ico_contact-mail {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -449px -129px;
+  }
+  .ico_contact.ico_contact-skype {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -49px -89px;
+  }
+  .ico_contact.ico_contact-twitter {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -129px -9px;
+  }
+  .ico_contact.ico_contact-facebook {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -9px -9px;
+  }
+  .ico_contact.ico_contact-flickr {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -369px -49px;
+  }
+  .ico_contact.ico_contact-dribbble {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -529px -9px;
+  }
+  .ico_contact.ico_contact-youtube {
+    background-size:560px 260px!important;
+    background:url(../img/retina/performer_icons.png) -169px -49px;
+  }
+}
