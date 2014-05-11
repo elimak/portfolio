@@ -5,10 +5,10 @@ require 'compass-h5bp'
 http_path = "./"
 css_dir = "public/css"
 sass_dir = "./"
-images_dir = "public/images"
-http_images_path = "../images"
-generated_images_dir = "public/images/generated"
-http_generated_images_dir = "../images/generated"
+images_dir = "public/img"
+http_images_path = "../img"
+generated_images_dir = "public/img/generated"
+http_generated_images_dir = "../img/generated"
 #javascripts_dir = "javascripts"
 
 

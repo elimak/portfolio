@@ -1,2 +1,20 @@
 @import "spritesheets/var/*.png";
 $var-sprite-dimensions: true;
+
+.logo_def{
+  @include var-sprite( logo );
+  width: 240;
+  height: 45;
+}
+
+.logo_retina{
+  @include var-sprite( logoretina );
+  width: 240;
+  height: 45;
+}
+
+// THEME
+@import "partial/theme";
+
+// THEME
+@import "partial/header";
