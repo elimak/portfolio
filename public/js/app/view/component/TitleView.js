@@ -20,6 +20,12 @@ define([
         initialize: function() {
             this.$el.css({display:'none'});
             this.render();
+
+            this.njs.on(navigatorjs.NavigatorEvent.STATE_CHANGED, this._onNavigationChanged);
+        },
+
+        _onNavigationChanged: function(){
+            console.log("navigation changed "/*this.njs.getCurrentState().getLastSegment()*/);
         },
 
         render: function() {
@@ -28,6 +34,7 @@ define([
         },
 
         transitionIn: function(callOnComplete) {
+
             this.$el.css({display:''});
             TweenLite.fromTo(this.$el, 0.5, {alpha:0}, {alpha:1, onComplete:callOnComplete});
         },

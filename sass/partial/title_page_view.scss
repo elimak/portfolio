@@ -1,0 +1,54 @@
+.page_title_block {
+  background:#232323;
+  padding:53px 0 55px 0;
+  text-align:center;
+
+  .title {
+    color:#dddddd;
+    margin-bottom:14px;
+    margin-top: 10px;
+  }
+
+  a,
+  span {
+    color:#cccccc;
+    display:inline-block;
+    position:relative;
+    margin:0 18px;
+  }
+
+  titleHomeView {
+
+  }
+
+  titleView{
+    a:before,
+    span:before {
+      content:'';
+      display:block;
+      position:absolute;
+      left:-20px;
+      top:6px;
+      width:7px;
+      height:7px;
+      background:url(../img/performer_buttons.png) no-repeat -12px -63px;
+    }
+  }
+
+
+  a:first-child:before {
+    display:none;
+  }
+
+  &.home span:before {
+    background:none;
+  }
+
+  a:hover {
+    color:#ffffff;
+  }
+}
+
+img.pic_retina{
+  display:none;
+}

@@ -1,5 +1,5 @@
 /* *** F O N T   F A M I L I E S  *** */
-
+       /*
 @font-face {
     font-family: 'CoreIconsRegular';
     src: url('fonts/coreicons-webfont.eot');
@@ -18,10 +18,10 @@
 
 .shortcode_iconbox .ico span {
     font-family: 'CoreIconsRegular';
-}
+}   */
 
 /* ***  F O N T   S E T T I N G S  *** */
-
+           /*
 h1, h2, h3, h4, h5, h6,
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
@@ -30,8 +30,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color:#444444;
 	text-transform:uppercase;
 	font-family:'Open Sans', sans-serif!important;
-}
-
+}      */
+/*
 header .menu > li > a,
 input[type="button"],
 input[type="reset"],
@@ -117,10 +117,10 @@ h6, h6 span, h6 a {
 		line-height:16px;
 	}
 }
-
+ */
 
 /* ***  C O L O R   O P T I O N S  *** */
-
+   /*
 header ul.menu > li > a {
 	color:#464d52;
-}
+}                  */

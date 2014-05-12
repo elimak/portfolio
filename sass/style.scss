@@ -17,6 +17,9 @@ $var-sprite-dimensions: true;
 @import "partial/theme";
 
 // THEME
+@import "partial/theme_settings";
+
+// THEME
 @import "partial/header";
 
 // THEME
@@ -24,3 +27,6 @@ $var-sprite-dimensions: true;
 
 // THEME
 @import "partial/retina";
+
+// THEME
+@import "partial/title_page_view";
