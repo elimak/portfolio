@@ -140,42 +140,42 @@ module.exports = function (grunt) {
 			staging: {
 				auth: {
 					//Username and password are in .ftppass file
-					host: 'portfolio.elimak.com',
+					host: 'elimak.com',
 					port: 21,
 					authKey: 'staging'
 				},
 				src: 'tmp/deploy/',
-				dest: 'staging/'+ now
+				dest: 'dev.elimak.com/portfolio/staging/'+ now
 			},
 
 			"staging-zip": {
 				auth: {
 					//Username and password are in .ftppass file
-					host: 'portfolio.elimak.com',
+					host: 'elimak.com',
 					port: 21,
 					authKey: 'staging'
 				},
 				src: 'tmp',
-				dest: 'staging/zip/',
+				dest: 'dev.elimak.com/portfolio/staging/zip/',
 				exclusions: ['deploy','deploy.zip']
 			},
 
 			production: {
 				auth: {
 					//Username and password are in .ftppass file
-					host: 'portfolio.elimak.com',
+					host: 'elimak.com',
 					port: 21,
 					authKey: 'production'
 				},
 				src: 'tmp/deploy/',
-				dest: 'production/'
+				dest: 'dev.elimak.com/portfolio/production/'
 			}
 		},
 
 		open: {
-			staging: { path: 'portfolio.elimak.com/files/tmp/grunt/staging/' + now },
-			"staging-zip": { path: 'portfolio.elimak.com/files/tmp/grunt/staging/zip/' + now +".zip" },
-			production: { path: 'portfolio.elimak.com/files/tmp/grunt/production/' }
+			staging: { path: 'dev.elimak.com/portfolio/files/tmp/grunt/staging/' + now },
+			"staging-zip": { path: 'dev.elimak.com/portfolio/files/tmp/grunt/staging/zip/' + now +".zip" },
+			production: { path: 'dev.elimak.com/portfolio/files/tmp/grunt/production/' }
 		},
 
 		compass: {

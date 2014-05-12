@@ -1,0 +1,148 @@
+[
+    {
+       "title": "Business strategy game - Globeaus",
+       "description": "Virtual world where the players can manage their investment in 4 different markets and simulate their business growth.",
+       "thumbnail": "img/portfolio/deloitte/deloitte_thumb.jpg",
+       "image": "img/portfolio/deloitte/deloitte.jpg",
+       "data": "data/deloitte.json",
+       "category": ["game"],
+       "role": ["programming", "techlead"]
+    },
+    {
+        "title": "Stop Motion editor - Gogo's",
+        "description": "Video / Stop Motion online editor for the trans-media campaign of C1000.",
+        "thumbnail": "img/portfolio/gogos/gogos_thumb.jpg",
+        "image": "img/portfolio/gogos/gogos.jpg",
+        "data": "data/gogos.json",
+        "category": ["game", "info"],
+        "role": ["programming", "prototyping"]
+    },
+    {
+        "title": "Emergency simulator - ABCDESim",
+        "description": "Health care training software to prepare students on medical emergency procedures.",
+        "thumbnail": "img/portfolio/abcdesim/abcdesim_thumb.jpg",
+        "image": "img/portfolio/abcdesim/abcdesim.jpg",
+        "data": "data/abcdesim.json",
+        "category": ["game"],
+        "role": ["programming", "prototyping"]
+    },
+    {
+        "title": "Workshop on cross-platform game development - Haxe",
+        "description": "Workshop on awe6, a inverted game framework written in Haxe.",
+        "thumbnail": "img/portfolio/haxe-workshop/haxe-workshop_thumb.jpg",
+        "image": "img/portfolio/haxe-workshop/haxe-workshop.jpg",
+        "data": "data/haxe-workshop.json",
+        "category": ["game", "lecture"],
+        "role": ["programming", "content"]
+    },
+    {
+        "title": "MMO Game - Club Galactik Football",
+        "description": "Massive multi-player online game running on top of the famous away3D library.",
+        "thumbnail": "img/portfolio/clubgalactik/clubgalactik_thumb.jpg",
+        "image": "img/portfolio/clubgalactik/clubgalactik.jpg",
+        "data": "data/clubgalactik.json",
+        "category": ["game"],
+        "role": ["programming", "content"]
+    },
+    {
+        "title": "Apps for Development, software competition by the World Bank",
+        "description": "Generate your virtual life and see how your household and country score against other countries around the world",
+        "thumbnail": "img/portfolio/appsfordev/appsfordev_thumb.jpg",
+        "image": "img/portfolio/appsfordev/appsfordev.jpg",
+        "data": "data/appsfordev.json",
+        "category": ["game", "dataviz"],
+        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"]
+    },
+    {
+        "title": "Analysis for improving the user engagement on a data-accuracy tool",
+        "description": "How can we engage the citizen to volunteer in correcting inaccurate geo-localization data?",
+        "thumbnail": "img/portfolio/pok/pok_thumb.jpg",
+        "image": "img/portfolio/pok/pok.jpg",
+        "data": "data/pok.json",
+        "category": ["info"],
+        "role": ["content", "ux"]
+    },
+    {
+        "title": "Mind the gap: girls' and women's education",
+        "description": "How can we engage the citizen to volunteer in correcting inaccurate geo-localization data?",
+        "thumbnail": "img/portfolio/gender-unesco/gender-unesco_thumb.jpg",
+        "image": "img/portfolio/gender-unesco/gender-unesco.jpg",
+        "data": "data/gender-unesco.json",
+        "category": ["dataviz", "info"],
+        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"]
+    },
+    {
+        "title": "Global education digest 2012, UNESCO",
+        "description": "Explore the new data from the UNESCO regarding the deprivation of education by gender across the globe.",
+        "thumbnail": "img/portfolio/education-unesco/education-unesco_thumb.jpg",
+        "image": "img/portfolio/education-unesco/education-unesco.jpg",
+        "data": "data/education-unesco.json",
+        "category": ["dataviz", "info"],
+        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"]
+    },
+    {
+        "title": "\"Egyptian Magic\" app",
+        "description": "Browse papyrus texts related to magic.",
+        "thumbnail": "img/portfolio/touch-egypt/touch-egypt_thumb.jpg",
+        "image": "img/portfolio/touch-egypt/touch-egypt.jpg",
+        "data": "data/education-unesco.json",
+        "category": ["info"],
+        "role": ["programming", "ux"]
+    },
+    {
+        "title": "\"Egyptian Magic\" app",
+        "description": "Browse papyrus texts related to magic.",
+        "thumbnail": "img/portfolio/touch-egypt/touch-egypt_thumb.jpg",
+        "image": "img/portfolio/touch-egypt/touch-egypt.jpg",
+        "data": "data/touch-egypt.json",
+        "category": ["info"],
+        "role": ["programming", "ux"]
+    },
+    {
+        "title": "Ecostream Facebook application",
+        "description": "Tool to estimate and monitor the energy produce by solar panels.",
+        "thumbnail": "img/portfolio/facebook-ecostream/facebook-ecostream_thumb.jpg",
+        "image": "img/portfolio/facebook-ecostream/facebook-ecostream.jpg",
+        "data": "data/facebook-ecostream.json",
+        "category": ["info"],
+        "role": ["programming", "prototyping"]
+    },
+    {
+        "title": "Ecostream user's dashboard",
+        "description": "Dashboard and analytic tools to monitor the production of energy generated with solar panels.",
+        "thumbnail": "img/portfolio/ecostream/ecostream_thumb.jpg",
+        "image": "img/portfolio/ecostream/ecostream.jpg",
+        "data": "data/ecostream.json",
+        "category": ["info", "dataviz"],
+        "role": ["programming", "prototyping", "ux"]
+    },
+    {
+        "title": "Speaking at WWX Haxe 2013",
+        "description": "Speaking at WWX Haxe: presentation of 2 side projects related to data.",
+        "thumbnail": "img/portfolio/wwx/wwx_thumb.jpg",
+        "image": "img/portfolio/wwx/wwx.jpg",
+        "data": "data/wwx.json",
+        "category": ["dataviz", "lecture"],
+        "role": ["programming", "content"]
+    },
+    {
+        "title": "Barcamp Speaker, data-visualization",
+        "description": "Mediamatic event on Open-data and data-visualization in Amsterdam.",
+        "thumbnail": "img/portfolio/opendata-mediamatic/opendata-mediamatic_thumb.jpg",
+        "image": "img/portfolio/opendata-mediamatic/opendata-mediamatic.jpg",
+        "data": "data/opendata-mediamatic.json",
+        "category": ["dataviz", "lecture"],
+        "role": ["content"]
+    },
+    {
+        "title": "Workshop at Mediamatic: the search for true engagement",
+        "description": "Full-day workshop to get a sense of \"game-thinking\" approach in UX design.",
+        "thumbnail": "img/portfolio/gamification/gamification_elimak_thumb.jpg",
+        "image": "img/portfolio/gamification/gamification_elimak.jpg",
+        "data": "data/gamification.json",
+        "category": ["lecture"],
+        "role": ["content", "ux"]
+    }
+]
+
+

@@ -38,6 +38,7 @@ requirejs.config({
         "enquire":"../vendors/enquire/dist/enquire",
         "stats":"../vendors/stats.js/src/Stats",
         "handlebars-helpers":"plugins/handlebars-helpers",
+        "tweet-mod":"plugins/tweet-mod",
         "templates":"../templates"
     },
 
@@ -120,7 +121,8 @@ require([
     "jquery.hammer",
     "enquire",
     "stats",
-    "handlebars-helpers"
+    "handlebars-helpers",
+    "tweet-mod"
 ], function(ApplicationContext) {
     //Enforce loading globally used libraries and kicking application off
 
