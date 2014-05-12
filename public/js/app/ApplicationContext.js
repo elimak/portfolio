@@ -17,6 +17,7 @@ define([
     'view/component/HeaderView',
     'view/component/TitleHomeView',
     'view/component/TitleView',
+    'view/component/FooterView',
 
     //MODELS
     'model/PortfolioCollection',
@@ -44,6 +45,7 @@ define([
     HeaderView,
     TitleHomeView,
     TitleView,
+    FooterView,
 
     //MODELS
     PortfolioCollection,
@@ -126,6 +128,7 @@ define([
             this.stateViewMap.mapState([States.PORTFOLIO,States.RESUME,States.CONTACT] ).toView(TitleView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#title");
 
             this.stateViewMap.mapState(States.ALL.STATES).toView(HeaderView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#header");
+            this.stateViewMap.mapState(States.ALL.STATES).toView(FooterView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#footer");
 
             //TODO APP
             /*

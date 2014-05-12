@@ -1,48 +1,35 @@
 /**
  * Created with JetBrains WebStorm.
  * User: elimak
- * Date: 5/11/14
- * Time: 12:41 PM
+ * Date: 5/12/14
+ * Time: 10:17 AM
  * To change this template use File | Settings | File Templates.
  */
 define([
-    'hbs!templates/component/TitleView',
+    'hbs!templates/component/FooterView',
     'constant/States'
 ], function (template, States) {
-    var TitleView = Backbone.View.extend({
+    var FooterView = Backbone.View.extend({
 
         navigatorBehaviors: ["IHasStateTransition"],
 
-        className: 'titleView',
+        className: 'footerView',
 
         njs: 'inject',
 
         initialize: function() {
             this.$el.css({display:'none'});
+            this.$el.addClass("footer_line container");
             this.render();
-
-            this.njs.on(navigatorjs.NavigatorEvent.STATE_CHANGED,_.bind(this._onNavigationChanged, this));
         },
 
         events: {
-            'click .breadcrumbs' : '_onRequestNavigation'
+            'click .btn2top' : '_onRequestScrollToTop'
         },
 
-        _onRequestNavigation: function(e){
+        _onRequestScrollToTop: function(e){
             e.preventDefault();
-            var state = $(e.target).attr('href');
-
-            this.njs.request(state);
-        },
-
-        _onNavigationChanged: function(){
-            var section =  this.njs.getCurrentState().getLastSegment();
-            if(section == States.HOME.getLastSegment()) return;
-
-            var $title =  this.$el.find('.container .title');
-            $title.html(section);
-            $title.css({display:''});
-            TweenLite.fromTo($title, 0.5, {alpha:0}, {alpha:1});
+            $("html:not(:animated), body:not(:animated)").animate({ scrollTop: 0}, 500 );
         },
 
         render: function() {
@@ -67,5 +54,5 @@ define([
         }
     });
 
-    return TitleView;
+    return FooterView;
 });

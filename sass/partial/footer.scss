@@ -1,0 +1,54 @@
+
+footer {
+  padding:50px 0 45px 0;
+  text-align:center;
+
+  .socials {
+    display:inline-block;
+    margin-bottom:23px;
+
+    li {
+      margin:0 5px;
+      display:inline-block;
+      float:left;
+
+      a {
+        width:40px;
+        height:40px;
+        display:block;
+      }
+    }
+  }
+}
+
+.btn2top {
+  margin:25px auto 0px auto;
+  display:inline-block;
+  width:34px;
+  height:34px;
+  border:#444444 3px solid;
+  border-radius:20px;
+  opacity:0.8;
+  position:relative;
+  cursor: pointer;
+
+  &:before {
+    content:'';
+    position:absolute;
+    left:10px;
+    top:12px;
+    background:url(../img/performer_buttons.png) no-repeat -21px -63px;
+    width:14px;
+    height:8px;
+    display:block;
+    opacity:0.8;
+  }
+
+  &:hover{
+    opacity:0.4;
+    &:before{
+      opacity:0.4;
+    }
+  }
+}
+
