@@ -16,6 +16,7 @@ define([
         className: 'preFooterView',
 
         njs: 'inject',
+        randomPortfolioModel: 'inject',
 
         $tweet:"",
 
@@ -23,9 +24,12 @@ define([
             this.$el.css({display:'none'});
             this.$el.addClass("container");
             this.render();
+
+           // this.listenTo(this.randomPortfolioModel, "change:randomPortfolio", this.render);
         },
 
         render: function() {
+            console.log("rendering?");
             this.$el.html(template({}));
             return this;
         },

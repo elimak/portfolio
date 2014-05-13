@@ -9,10 +9,16 @@ define([
 ], function () {
     var PortfolioItemModel = Backbone.Model.extend({
         defaults: {
+            title: '',
+            description: '',
+            thumbnail: '',
+            image: '',
+            data: '',
+            category: [],
+            role: []
         },
 
         initialize: function() {
-
         }
 
     });

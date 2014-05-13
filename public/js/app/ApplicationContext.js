@@ -24,11 +24,17 @@ define([
     'model/PortfolioCollection',
     'model/PortfolioItemModel',
     'model/PortfolioModel',
+    'model/RandomPortfolioModel',
 
     //Services
+    'service/PortfolioService',
+
+    //Responder
+    'responder/PortfolioDataResponder',
 
     //COMMANDS
-    'command/OnChangeUpdateFilteredPortfolioCommand',
+    'command/OnLoadedPortfolioCollectionCommand',
+    'command/OnRefreshRandomPortfolioCommand',
 
     // constant
     'constant/States',
@@ -53,11 +59,17 @@ define([
     PortfolioCollection,
     PortfolioItemModel,
     PortfolioModel,
+    RandomPortfolioModel,
 
     //Services
+    PortfolioService,
+
+    //Responder
+    PortfolioDataResponder,
 
     //COMMANDS
-    OnChangeUpdateFilteredPortfolioCommand,
+    OnLoadedPortfolioCollectionCommand,
+    OnRefreshRandomPortfolioCommand,
 
     //
     States,
@@ -84,6 +96,7 @@ define([
             this.initializeNavigator();
             this.mapModels();
             this.mapServices();
+            this.mapStateResponders();
             this.mapStates();
             this.bindCommands();
 
@@ -92,8 +105,8 @@ define([
             }
 
             var urlState = this.stateUrlSyncer.getUrlState();
-
-            this.njs.start(urlState.equals('') ? 'home' : urlState);
+            this.njs.start();
+            this.njs.request(urlState.equals('') ? 'home' : urlState);
         },
 
         initializeNavigator: function() {
@@ -111,10 +124,15 @@ define([
         mapModels: function() {
             this.injector.map('portfolioCollection').toSingleton(PortfolioCollection);
             this.injector.map('portfolioModel').toSingleton(PortfolioModel);
+            this.injector.map('randomPortfolioModel').toSingleton(RandomPortfolioModel);
         },
 
         mapServices: function() {
-           // this.injector.map('myService').toSingleton(MyService);
+           this.injector.map('portfolioService').toSingleton(PortfolioService);
+        },
+
+        mapStateResponders: function() {
+            this.njs.add(new PortfolioDataResponder({injector:this.injector}), States.ALL.STATES);
         },
 
         mapStates: function() {
@@ -132,29 +150,11 @@ define([
             this.stateViewMap.mapState(States.ALL.STATES).toView(HeaderView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#header");
             this.stateViewMap.mapState(States.ALL.STATES).toView(FooterView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#footer");
             this.stateViewMap.mapState(States.ALL.STATES).toView(PreFooterView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#prefooter");
-
-            //TODO APP
-            /*
-            var todoStates = ["todo", "todo/active", "todo/completed", "todo/edit/*", "todo/active/edit/*", "todo/completed/edit/*"],
-                todoRecipe = this.stateViewMap.mapState(todoStates).toView(TodoAppView).withArguments({injector:this.injector});
-
-            this.stateViewMap.mapState(todoStates).toView(HeaderView).withArguments({injector:this.injector}).withParent(todoRecipe).inside("#todoapp");
-            this.stateViewMap.mapState(todoStates).toView(TodoListView).withArguments({injector:this.injector}).withParent(todoRecipe).inside("#todoapp");
-            this.stateViewMap.mapState(todoStates).toView(FooterView).withArguments({injector:this.injector}).withParent(todoRecipe).inside("#todoapp");
-            this.stateViewMap.mapState(todoStates).toView(InfoView).withArguments({injector:this.injector}).withParent(todoRecipe);
-            */
         },
 
         bindCommands: function() {
-           /* this.bindCommand(this.injector.getInstance('todoCollection'), "change reset add remove", OnChangeUpdateFilteredTodosCommand);
-            this.bindCommand(this.injector.getInstance('todosModel'), "change:filter", OnChangeUpdateFilteredTodosCommand);
-
-            this.bindCommand(this.injector.getInstance('todoCollection'), "change:completed reset add remove", OnChangeUpdateTodoStatsCommand);
-            this.bindCommand(this.injector.getInstance('todoCollection'), "change:editing", OnEditingTodoChangedUpdateActiveTodoCommand);
-
-            this.bindCommand(this.injector.getInstance('todosModel'), "change:activeTodo", OnChangeActiveTodoUpdateURLCommand);
-
-            this.bindCommand(this.injector.getInstance('saveTodoService'), "complete", OnSaveTodoServiceCompleteCommand);    */
+            this.bindCommand(this.injector.getInstance('portfolioService'), "change:data", OnLoadedPortfolioCollectionCommand);
+            this.bindCommand(this.injector.getInstance('randomPortfolioModel'), "change:time", OnRefreshRandomPortfolioCommand);
         },
 
         addDebug: function() {

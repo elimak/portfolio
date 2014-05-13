@@ -3,7 +3,7 @@ define([
 ], function () {
 
 	var States = {};
-     States.ROOT = new navigatorjs.NavigationState("");
+    States.ROOT = new navigatorjs.NavigationState("");
 
 	States.HOME = States.ROOT.clone().append("home");
 	States.PORTFOLIO = States.ROOT.clone().append("portfolio");

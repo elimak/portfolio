@@ -11,12 +11,14 @@ define([
     var PortfolioModel = Backbone.Model.extend({
         defaults: {
             filteredPortfolio: null, // []
+            randomPortfolio: null, // []
             filter: 'all' //all, programming, techlead, prototyping, content, ux, pm
         },
 
         initialize: function() {
             this.set({
-                filteredPortfolio: []
+                filteredPortfolio: [] ,
+                randomPortfolio: []
             });
         }
     });
