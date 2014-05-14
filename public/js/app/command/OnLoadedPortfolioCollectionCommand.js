@@ -19,10 +19,8 @@ define([
             if( this.portfolioService.get("data") === null ) return;
 
             this.portfolioCollection.reset();
+            this.portfolioCollection.add(this.portfolioService.get("data"));
 
-            for(var i=0; i <this.portfolioService.get("data").length; i++){
-                this.portfolioCollection.add(this.portfolioService.get("data")[i]);
-            }
             this.randomPortfolioModel.startTimer();
         }
     });

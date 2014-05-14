@@ -10,6 +10,7 @@ define([
     var PortfolioItemModel = Backbone.Model.extend({
         defaults: {
             title: '',
+            path: '',
             description: '',
             thumbnail: '',
             image: '',

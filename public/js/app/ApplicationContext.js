@@ -26,15 +26,19 @@ define([
     'model/PortfolioItemModel',
     'model/PortfolioModel',
     'model/RandomPortfolioModel',
+    'model/PortfolioPostModel',
 
     //Services
     'service/PortfolioService',
+    'service/PortfolioPostService',
 
     //Responder
     'responder/PortfolioDataResponder',
+    'responder/PortfolioPostDataResponder',
 
     //COMMANDS
     'command/OnLoadedPortfolioCollectionCommand',
+    'command/OnLoadedPortfolioPostCommand',
     'command/OnRefreshRandomPortfolioCommand',
 
     // constant
@@ -62,15 +66,19 @@ define([
     PortfolioItemModel,
     PortfolioModel,
     RandomPortfolioModel,
+    PortfolioPostModel,
 
     //Services
     PortfolioService,
+    PortfolioPostService,
 
     //Responder
     PortfolioDataResponder,
+    PortfolioPostDataResponder,
 
     //COMMANDS
     OnLoadedPortfolioCollectionCommand,
+    OnLoadedPortfolioPostCommand,
     OnRefreshRandomPortfolioCommand,
 
     //
@@ -126,11 +134,13 @@ define([
         mapModels: function() {
             this.injector.map('portfolioCollection').toSingleton(PortfolioCollection);
             this.injector.map('portfolioModel').toSingleton(PortfolioModel);
+            this.injector.map('portfolioPostModel').toSingleton(PortfolioPostModel);
             this.injector.map('randomPortfolioModel').toSingleton(RandomPortfolioModel);
         },
 
         mapServices: function() {
            this.injector.map('portfolioService').toSingleton(PortfolioService);
+           this.injector.map('portfolioPostService').toSingleton(PortfolioPostService);
         },
 
         mapStateResponders: function() {
@@ -181,8 +191,12 @@ define([
         },
 
         bindCommands: function() {
-            this.bindCommand(this.injector.getInstance('portfolioService'), "change:data", OnLoadedPortfolioCollectionCommand);
-            this.bindCommand(this.injector.getInstance('randomPortfolioModel'), "change:time", OnRefreshRandomPortfolioCommand);
+            this.bindCommand(this.injector.getInstance('portfolioService'),
+                "change:data", OnLoadedPortfolioCollectionCommand);
+            this.bindCommand(this.injector.getInstance('portfolioPostService'),
+                "change:data", OnLoadedPortfolioPostCommand);
+            this.bindCommand(this.injector.getInstance('randomPortfolioModel'),
+                "change:time", OnRefreshRandomPortfolioCommand);
         },
 
         addDebug: function() {

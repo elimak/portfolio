@@ -12,7 +12,8 @@ define([
         defaults: {
             filteredPortfolio: null, // []
             randomPortfolio: null, // []
-            filter: 'all' //all, programming, techlead, prototyping, content, ux, pm
+            filter: 'all', //all, programming, techlead, prototyping, content, ux, pm
+            selected: null
         },
 
         initialize: function() {

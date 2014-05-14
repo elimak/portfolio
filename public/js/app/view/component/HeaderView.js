@@ -20,6 +20,8 @@ define([
         initialize: function() {
             this.$el.css({display:'none'});
             this.render();
+
+            this.njs.on(navigatorjs.NavigatorEvent.STATE_CHANGED,_.bind(this._onNavigationChanged, this));
         },
 
         events: {
@@ -61,26 +63,27 @@ define([
                     element.removeClass("current-menu-parent");
                 });
 
-            console.log(States.HOME.getLastSegment() +" // "+ state);
-
-            switch(state){
-                case States.HOME.getLastSegment():
+            switch(true){
+                case state.search("home") > -1 || state == "/":
                     $( "#menu_home" ).addClass( "current-menu-parent" );
                     break;
-                case States.PORTFOLIO.getLastSegment():
+                case state.search("portfolio") > -1:
                     $( "#menu_portfolio" ).addClass( "current-menu-parent" );
                     break;
-                case States.RESUME.getLastSegment():
+                case state.search("resume") > -1:
                     $( "#menu_resume" ).addClass( "current-menu-parent" );
                     break;
-                case States.CONTACT.getLastSegment():
+                case state.search("contact") > -1:
                     $( "#menu_contact" ).addClass( "current-menu-parent" );
                     break;
             }
         },
 
-        render: function() {
+        _onNavigationChanged: function(){
+            this._updateActiveMenu(this.njs.getCurrentState().getPath());
+        },
 
+        render: function() {
             this.$el.html(template({}));
             return this;
         },
@@ -88,8 +91,6 @@ define([
         transitionIn: function(callOnComplete) {
             this.$el.css({display:''});
             TweenLite.fromTo(this.$el, 0.5, {alpha:0}, {alpha:1, onComplete:callOnComplete});
-            var state =  this.njs.getCurrentState().getLastSegment()? this.njs.getCurrentState().getLastSegment() : "home";
-            this._updateActiveMenu(state);
         },
 
         transitionOut: function(callOnComplete) {
