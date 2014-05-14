@@ -12,6 +12,7 @@ define([
     'view/PortfolioView',
     'view/ResumeView',
     'view/ContactView',
+    'view/PortfolioPostView',
 
     //components
     'view/component/HeaderView',
@@ -47,6 +48,7 @@ define([
     PortfolioView,
     ResumeView,
     ContactView,
+    PortfolioPostView,
 
     // components
     HeaderView,
@@ -142,14 +144,40 @@ define([
             this.stateViewMap.mapState(States.HOME).toView(HomeView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#content");
             this.stateViewMap.mapState(States.HOME).toView(TitleHomeView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#title");
 
-            this.stateViewMap.mapState(States.PORTFOLIO).toView(PortfolioView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#content");
-            this.stateViewMap.mapState(States.RESUME).toView(ResumeView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#content");
-            this.stateViewMap.mapState(States.CONTACT).toView(ContactView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#content");
-            this.stateViewMap.mapState([States.PORTFOLIO,States.RESUME,States.CONTACT] ).toView(TitleView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#title");
+            this.stateViewMap
+                .mapState(States.PORTFOLIO, States.PORTFOLIO_FILTERED)
+                .toView(PortfolioView).withArguments({injector:this.injector})
+                .withParent(appRecipe).inside("#content");
 
-            this.stateViewMap.mapState(States.ALL.STATES).toView(HeaderView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#header");
-            this.stateViewMap.mapState(States.ALL.STATES).toView(FooterView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#footer");
-            this.stateViewMap.mapState(States.ALL.STATES).toView(PreFooterView).withArguments({injector:this.injector}).withParent(appRecipe).inside("#prefooter");
+            this.stateViewMap
+                .mapState(States.PORTFOLIO_POST)
+                .toView(PortfolioPostView).withArguments({injector:this.injector})
+                .withParent(appRecipe).inside("#content");
+            this.stateViewMap
+                .mapState(States.RESUME)
+                .toView(ResumeView).withArguments({injector:this.injector})
+                .withParent(appRecipe).inside("#content");
+            this.stateViewMap
+                .mapState(States.CONTACT)
+                .toView(ContactView).withArguments({injector:this.injector})
+                .withParent(appRecipe).inside("#content");
+            this.stateViewMap
+                .mapState([States.PORTFOLIO, States.PORTFOLIO_POST, States.PORTFOLIO_FILTERED, States.RESUME,States.CONTACT] )
+                .toView(TitleView).withArguments({injector:this.injector})
+                .withParent(appRecipe).inside("#title");
+
+            this.stateViewMap
+                .mapState(States.ALL.STATES)
+                .toView(HeaderView).withArguments({injector:this.injector})
+                .withParent(appRecipe).inside("#header");
+            this.stateViewMap
+                .mapState(States.ALL.STATES)
+                .toView(FooterView).withArguments({injector:this.injector})
+                .withParent(appRecipe).inside("#footer");
+            this.stateViewMap
+                .mapState(States.ALL.STATES)
+                .toView(PreFooterView).withArguments({injector:this.injector})
+                .withParent(appRecipe).inside("#prefooter");
         },
 
         bindCommands: function() {

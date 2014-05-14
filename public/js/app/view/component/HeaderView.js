@@ -61,6 +61,8 @@ define([
                     element.removeClass("current-menu-parent");
                 });
 
+            console.log(States.HOME.getLastSegment() +" // "+ state);
+
             switch(state){
                 case States.HOME.getLastSegment():
                     $( "#menu_home" ).addClass( "current-menu-parent" );
@@ -86,7 +88,8 @@ define([
         transitionIn: function(callOnComplete) {
             this.$el.css({display:''});
             TweenLite.fromTo(this.$el, 0.5, {alpha:0}, {alpha:1, onComplete:callOnComplete});
-            this._updateActiveMenu(this.njs.getCurrentState().getLastSegment());
+            var state =  this.njs.getCurrentState().getLastSegment()? this.njs.getCurrentState().getLastSegment() : "home";
+            this._updateActiveMenu(state);
         },
 
         transitionOut: function(callOnComplete) {

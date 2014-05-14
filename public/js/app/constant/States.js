@@ -6,7 +6,7 @@ define([
     States.ROOT = new navigatorjs.NavigationState("");
 
 	States.HOME = States.ROOT.clone().append("home");
-	States.PORTFOLIO = States.ROOT.clone().append("portfolio");
+	States.PORTFOLIO = States.ROOT.clone().append("portfolio/overview");
 	States.RESUME = States.ROOT.clone().append("resume");
 	States.CONTACT = States.ROOT.clone().append("contact");
 	States.PORTFOLIO_POST = States.ROOT.clone().append("portfolio/post/*");

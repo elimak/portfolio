@@ -19,11 +19,15 @@ define([
                 randomPortfolio: [] ,
                 time:0
             });
+        },
+
+        startTimer: function(){
+            this.set({time:(this.get("time")+1)});
 
             var that = this;
             setInterval(function(){
                 that.set({time: that.get('time')+1 });
-            }, 10000);
+            }, 15000);
         }
     });
 

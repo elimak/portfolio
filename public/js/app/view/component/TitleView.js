@@ -36,8 +36,18 @@ define([
         },
 
         _onNavigationChanged: function(){
-            var section =  this.njs.getCurrentState().getLastSegment();
-            if(section == States.HOME.getLastSegment()) return;
+
+            var currentStateFullPath = this.njs.getCurrentState().getPath();
+
+            if(this.njs.getCurrentState() == States.HOME) return;
+
+            var section;
+
+            switch (true){
+                case currentStateFullPath.toLowerCase().search("portfolio") > -1 : section= "Portfolio"; break;
+                case currentStateFullPath.toLowerCase().search("contact") > -1 : section= "Contact"; break;
+                case currentStateFullPath.toLowerCase().search("resume") > -1 : section= "Resume"; break;
+            }
 
             var $title =  this.$el.find('.container .title');
             $title.html(section);

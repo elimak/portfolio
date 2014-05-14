@@ -12,7 +12,7 @@ define([
         njs: 'inject',
         portfolioService: 'inject',
         portfolioCollection: 'inject',
-        portfolioModel: 'inject',
+        randomPortfolioModel: 'inject',
 
         execute:function () {
 
@@ -23,10 +23,7 @@ define([
             for(var i=0; i <this.portfolioService.get("data").length; i++){
                 this.portfolioCollection.add(this.portfolioService.get("data")[i]);
             }
-           /*
-            this.portfolioModel.set({
-                randomPortfolio: _.shuffle(this.portfolioCollection.models).slice(0,2)
-            });     */
+            this.randomPortfolioModel.startTimer();
         }
     });
 

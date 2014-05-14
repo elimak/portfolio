@@ -20,8 +20,6 @@ define([
             this.randomPortfolioModel.set({
                 randomPortfolio: _.shuffle(this.portfolioCollection.models).slice(0,2)
             });
-
-            console.log(this.randomPortfolioModel.toJSON());
         }
     });
 

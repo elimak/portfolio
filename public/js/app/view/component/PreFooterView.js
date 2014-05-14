@@ -23,14 +23,24 @@ define([
         initialize: function() {
             this.$el.css({display:'none'});
             this.$el.addClass("container");
-            this.render();
 
-           // this.listenTo(this.randomPortfolioModel, "change:randomPortfolio", this.render);
+            this.listenTo(this.randomPortfolioModel, "change:randomPortfolio", this.render);
+            this.render();
+        },
+
+        events: {
+            'click #random-projects li a'  : '_onRequestPortfolioItem'
+        },
+
+        _onRequestPortfolioItem: function(e){
+             e.preventDefault();
+             var state = $(e.target).attr('href');
+             console.log(state);
+             this.njs.request(state);
         },
 
         render: function() {
-            console.log("rendering?");
-            this.$el.html(template({}));
+            this.$el.html(template(this.randomPortfolioModel.toJSON()));
             return this;
         },
 
