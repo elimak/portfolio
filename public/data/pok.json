@@ -1,0 +1,68 @@
+{
+    "title": "Analysis for improving the user engagement on a data-accuracy tool",
+    "data": "data/pok.json",
+    "year": 2012,
+    "by": {
+        "name": "By Elimak",
+        "url": "http://www.elimak.com"
+    },
+    "for": {
+        "name": "For The World Bank Institute, innovative Labs",
+        "url": "http://wbi.worldbank.org/wbi/"
+    },
+    "duration": "2 weeks",
+    "people": 5,
+    "agile": false,
+    "slideshow":[
+        "img/portfolio/pok/pic1.jpg",
+        "img/portfolio/pok/pic2.jpg",
+        "img/portfolio/pok/pic3.jpg",
+        "img/portfolio/pok/pic4.jpg"
+    ],
+    "titleRole": "User experience consultant",
+    "introRole": "Produced several documents:",
+    "tasks":[
+        "to explain user's psychology principles",
+        "to motivate citizen in volunteering for correcting wrong geo-localized data",
+        "to build meaningful communities"
+    ],
+    "softwareDev" :{
+        "programming" : false,
+        "techDesign" : false,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : true,
+        "ux" : true,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : false,
+        "docAnalysis" : true,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "I was contacted by Richard Murby to advice his team on a building an online community to help correcting wrong geo-localized data collected by several NGOs in 3 African countries.",
+        "Together with Dmitry Zaviralov, Johannes Kiess and Qiyang Xu, we ran several brainstorming sessions to identify the challenges and the potentials associated with the project.",
+        "I synthesized our findings and advised them accordingly for the next steps of the development."
+    ],
+    "team":[
+        "Richard Murby",
+        "Dmitry Zaviralov",
+        "Johannes Kiess",
+        "Qiyang Xu",
+        "Myself"
+    ],
+    "video":{},
+    "tags":[
+        "User Experience",
+        "Analysis",
+        "Psychology",
+        "User's engagement",
+        "Community building"
+    ],
+    "relatedProjects":[
+         13,10,15,1,7
+    ]
+}

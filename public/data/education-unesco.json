@@ -1,0 +1,79 @@
+{
+    "title": "Global education digest 2012, UNESCO",
+    "data": "data/education-unesco.json",
+    "year": 2012,
+    "by": {
+        "name": "By Elimak",
+        "url": "http://www.elimak.com"
+    },
+    "for": {
+        "name": "For UNESCO, institute for Statistics",
+        "url": "http://www.uis.unesco.org/"
+    },
+    "slideshow":[
+        "img/portfolio/education-unesco/pic6.jpg",
+        "img/portfolio/education-unesco/pic7.jpg",
+        "img/portfolio/education-unesco/pic8.jpg",
+        "img/portfolio/education-unesco/pic9.jpg",
+        "img/portfolio/education-unesco/pic1.jpg",
+        "img/portfolio/education-unesco/pic2.jpg",
+        "img/portfolio/education-unesco/pic3.jpg",
+        "img/portfolio/education-unesco/pic4.jpg",
+        "img/portfolio/education-unesco/pic5.jpg"
+    ],
+    "titleRole": "I was Multitasking!",
+    "introRole": "",
+    "tasks":[
+        "Produced the concept that won the call for tender",
+        "Managed the project's communications and my team from A to Z",
+        "Applied agile process and lean design through the whole project",
+        "Developed the UX of the interactive data-visualization",
+        "Managed the creation of the visual design for the info-graphic and the 6 data graphics used in presentation (designed by Thijs Geritz)",
+        "Was responsible for the final deliveries created in 3 languages: English, French and Spanish"
+    ],
+    "duration": "1.5 month",
+    "people": 6,
+    "agile": true,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : true
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : true,
+        "ux" : true,
+        "pm" : true
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : true,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "The project was made by Elimak (my company) for Unesco, institute for Statistics.",
+        "We delivered an interactive data-visualization, an info-graphic + flyer and 6 charts to support the public presentation of the Global Education Digest.",
+        "The visual design was realized by Thijs Geritz",
+        "We worked across 2 time zones: Amsterdam, NL and Montreal, CA"
+    ],
+    "team":[
+        "Project manager + concept + programing: myself",
+        "Visual designer / animator: Thijs Geritz",
+        "Statistician: Patrick Montjourides ",
+        "Developer at Unesco: Andre Talman",
+        "Head of Communication at Unesco: Amy Otchet and Jennifer Morrow"
+    ],
+    "video":{
+    },
+    "tags":[
+        "Education",
+        "Data-visualization",
+        "Interactive tool",
+        "Education",
+        "Info-graphic",
+        "Project management"
+    ],
+    "relatedProjects":[
+        6,15,10,4,16
+    ]
+}

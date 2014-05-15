@@ -58,7 +58,11 @@ define([
                 url: "http://www.youtube.com/embed/PyPcdVOZc7c?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque",
                 width:560,
                 height:380
-            }
+            },
+            tags:[
+                'User Experience',
+                'Mobile'
+            ]
         },
 
         initialize: function() {

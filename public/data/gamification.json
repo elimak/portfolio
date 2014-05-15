@@ -1,0 +1,67 @@
+{
+    "title": "Workshop at Mediamatic: the search for true engagement",
+    "data": "data/gamification.json",
+    "year": 2013,
+    "by": {
+        "name": "By Elimak",
+        "url": "http://www.elimak.com"
+    },
+    "for": {
+        "name": "And Creative Seeds",
+        "url": "http://creativeseeds.nl/"
+    },
+    "slideshow":[
+        "img/portfolio/gamification/pic1.jpg",
+        "img/portfolio/gamification/pic2.jpg",
+        "img/portfolio/gamification/pic3.jpg",
+        "img/portfolio/gamification/pic4.jpg"
+    ],
+    "titleRole": "I co-managed the workshop with Thijs de Vries",
+    "introRole": "",
+    "tasks":[
+        "Thijs and I share similar thoughts and experience regarding \"game-thinking\" and \"user-centric\" design.",
+        "We decided to team-up to write the content of this \"full-day workshop\".",
+        "We presented an introduction to User Experience principles using "game techniques" and an introduction to the component of motivation.",
+        "Our workshop also includes several tangible brainstorming sessions with use cases analysis."
+    ],
+    "duration": "1 week",
+    "people": 2,
+    "agile": false,
+    "softwareDev" :{
+        "programming" : false,
+        "techDesign" : false,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : true,
+        "ux" : true,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : false,
+        "docAnalysis" : true,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "Thijs de Vries and I ran this workshop at Mediamatic in Amsterdam and we had a dozen of attendees, including some individuals working in the education field and 2 creators of museum's installations."
+    ],
+    "team":[
+        "Thijs de Vries",
+        "Myself"
+    ],
+    "video":{
+    },
+    "tags":[
+        "Workshop",
+        "User Experience",
+        "Intrinsic motivation",
+        "Brainstorm",
+        "Gamification",
+        "Game thinking",
+        "Psychology"
+    ],
+    "relatedProjects":[
+        11,4,2,5
+    ]
+}

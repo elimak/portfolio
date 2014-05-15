@@ -7,7 +7,8 @@
         "image": "img/portfolio/pok/pok.jpg",
         "data": "data/pok.json",
         "category": ["info"],
-        "role": ["content", "ux"]
+        "role": ["content", "ux"],
+        "id":"16"
     },
     {
         "title": "Mind the gap: girls' and women's education",
@@ -17,7 +18,8 @@
         "image": "img/portfolio/gender-unesco/gender-unesco.jpg",
         "data": "data/gender-unesco.json",
         "category": ["dataviz", "info"],
-        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"]
+        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"],
+        "id":"15"
     },
     {
         "title": "Workshop at Mediamatic: the search for true engagement",
@@ -27,7 +29,8 @@
         "image": "img/portfolio/gamification/gamification_elimak.jpg",
         "data": "data/gamification.json",
         "category": ["lecture"],
-        "role": ["content", "ux"]
+        "role": ["content", "ux"],
+        "id":"14"
     },
     {
         "title": "Global education digest 2012, UNESCO",
@@ -37,7 +40,8 @@
         "image": "img/portfolio/education-unesco/education-unesco.jpg",
         "data": "data/education-unesco.json",
         "category": ["dataviz", "info"],
-        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"]
+        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"],
+        "id":"13"
     },
     {
         "title": "Emergency simulator - ABCDESim",
@@ -47,7 +51,8 @@
         "image": "img/portfolio/abcdesim/abcdesim.jpg",
         "data": "data/abcdesim.json",
         "category": ["game"],
-        "role": ["programming", "prototyping"]
+        "role": ["programming", "prototyping"],
+        "id":"12"
     },
     {
         "title": "Speaking about UX design and components of motivation at Mediamatic",
@@ -57,7 +62,8 @@
         "image": "img/portfolio/gamification-mediamatic/gamification-mediamatic.jpg",
         "data": "data/gamification-lecture.json",
         "category": ["lecture"],
-        "role": ["content", "ux"]
+        "role": ["content", "ux"],
+        "id":"11"
     },
     {
         "title": "Ecostream user's dashboard",
@@ -67,7 +73,8 @@
         "image": "img/portfolio/ecostream/ecostream.jpg",
         "data": "data/ecostream.json",
         "category": ["info", "dataviz"],
-        "role": ["programming", "prototyping", "ux"]
+        "role": ["programming", "prototyping", "ux"],
+        "id":"10"
     },
     {
         "title": "Business strategy game - Globeaus",
@@ -77,7 +84,8 @@
         "image": "img/portfolio/deloitte/deloitte.jpg",
         "data": "data/deloitte.json",
         "category": ["game"],
-        "role": ["programming", "techlead"]
+        "role": ["programming", "techlead"],
+        "id":"9"
     },
     {
         "title": "MMO Game - Club Galactik Football",
@@ -87,7 +95,8 @@
         "image": "img/portfolio/clubgalactik/clubgalactik.jpg",
         "data": "data/clubgalactik.json",
         "category": ["game"],
-        "role": ["programming", "content"]
+        "role": ["programming", "content"],
+        "id":"8"
     },
     {
         "title": "Stop Motion editor - Gogo's",
@@ -97,7 +106,8 @@
         "image": "img/portfolio/gogos/gogos.jpg",
         "data": "data/gogos.json",
         "category": ["game", "info"],
-        "role": ["programming", "prototyping"]
+        "role": ["programming", "prototyping"],
+        "id":"7"
     },
     {
         "title": "Apps for Development, software competition by the World Bank",
@@ -107,7 +117,8 @@
         "image": "img/portfolio/appsfordev/appsfordev.jpg",
         "data": "data/appsfordev.json",
         "category": ["game", "dataviz"],
-        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"]
+        "role": ["programming", "techlead", "content", "prototyping", "ux", "pm"],
+        "id":"6"
     },
     {
         "title": "Workshop on cross-platform game development - Haxe",
@@ -117,7 +128,8 @@
         "image": "img/portfolio/haxe-workshop/haxe-workshop.jpg",
         "data": "data/haxe-workshop.json",
         "category": ["game", "lecture"],
-        "role": ["programming", "content"]
+        "role": ["programming", "content"],
+        "id":"5"
     },
     {
         "title": "Barcamp Speaker, data-visualization",
@@ -127,7 +139,8 @@
         "image": "img/portfolio/opendata-mediamatic/opendata-mediamatic.jpg",
         "data": "data/opendata-mediamatic.json",
         "category": ["dataviz", "lecture"],
-        "role": ["content"]
+        "role": ["content"],
+        "id":"4"
     },
     {
         "title": "Ecostream Facebook application",
@@ -137,7 +150,8 @@
         "image": "img/portfolio/facebook-ecostream/facebook-ecostream.jpg",
         "data": "data/facebook-ecostream.json",
         "category": ["info"],
-        "role": ["programming", "prototyping"]
+        "role": ["programming", "prototyping"],
+        "id":"3"
     },
     {
         "title": "Speaking at WWX Haxe 2013",
@@ -147,7 +161,8 @@
         "image": "img/portfolio/wwx/wwx.jpg",
         "data": "data/wwx.json",
         "category": ["dataviz", "lecture"],
-        "role": ["programming", "content"]
+        "role": ["programming", "content"],
+        "id":"2"
     },
     {
         "title": "\"Egyptian Magic\" app",
@@ -157,7 +172,8 @@
         "image": "img/portfolio/touch-egypt/touch-egypt.jpg",
         "data": "data/education-unesco.json",
         "category": ["info"],
-        "role": ["programming", "ux"]
+        "role": ["programming", "ux"],
+        "id":"1"
     }
 ]
 

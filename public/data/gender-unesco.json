@@ -1,0 +1,85 @@
+{
+    "title": "Mind the gap: girls' and women's education",
+    "data": "data/gender-unesco.json",
+    "year": 2013,
+    "by": {
+        "name": "By Elimak",
+        "url": "http://www.elimak.com"
+    },
+    "for": {
+        "name": "For UNESCO, institute for Statistics",
+        "url": "http://www.uis.unesco.org/"
+    },
+    "slideshow":[
+        "img/portfolio/gender-unesco/pic4.jpg",
+        "img/portfolio/gender-unesco/pic8.jpg",
+        "img/portfolio/gender-unesco/pic7.jpg",
+        "img/portfolio/gender-unesco/pic5.jpg",
+        "img/portfolio/gender-unesco/pic3.jpg",
+        "img/portfolio/gender-unesco/pic2.jpg",
+        "img/portfolio/gender-unesco/pic1.jpg"
+    ],
+    "titleRole": "I was Multitasking!",
+    "introRole": "",
+    "tasks":[
+        "Produced the concept, the storyboards and the data analysis",
+        "Managed the project's communications and my team from A to Z",
+        "Applied agile process and lean design through the whole project",
+        "Developed the UX of the interactive data-visualization with an emphasis on touch-enabled devices",
+        "Prototyped the animations with Thijs Geritz",
+        "Ran several tests on performance for mobile/tablet usage",
+        "Was responsible for delivering the interactive tool in 3 languages: English, French and Spanish"
+    ],
+    "duration": "4 months",
+    "people": 6,
+    "agile": true,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : true
+    },
+    "designManagement":{
+        "prototyping" : true,
+        "content" : true,
+        "ux" : true,
+        "pm" : true
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : true,
+        "mobileTablets" : true
+    },
+    "projectDescription" :[
+        "The project was made by Elimak (my company) for Unesco, institute for Statistics",
+        "The concept phase included an extended analysis on the data coverage and relevancy",
+        "We applied lean UX during the whole process, allowing everyone in the team to engage with the project",
+        "We delivered an interactive data-visualization that uses a game approach to engage a general audience of a wide age range",
+        "The User Experience was designed for both touch-enabled devices and desktop browser",
+        "The visual design and the animations were realized by Thijs Geritz",
+        "We worked across 2 time zones: Amsterdam, NL and Montreal, CA"
+    ],
+    "team":[
+        "Project manager + concept + programing: myself",
+        "Visual designer / animator: Thijs Geritz",
+        "Statisticians: Patrick Montjourides and Simon Normandeau",
+        "Developer at Unesco: Andre Talman",
+        "Head of Communication at Unesco: Amy Otchet"
+    ],
+    "video":{
+        "url": "http://www.youtube.com/embed/PyPcdVOZc7c?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque",
+        "width":560,
+        "height":380
+    },
+    "tags":[
+        "User Experience",
+        "Mobile",
+        "Data-visualization",
+        "Interactive tool",
+        "Education",
+        "Game thinking",
+        "Project management"
+    ],
+    "relatedProjects":[
+        13,10,4,6
+    ]
+}
