@@ -1,0 +1,62 @@
+{
+    "title": "Speaking on \"Game thinking\" UX design",
+    "data": "data/gamification-lecture.json",
+    "year": 2012,
+    "by": {
+        "name": "At Mediamatic",
+        "url": "http://www.mediamatic.net/"
+    },
+    "for": {
+        "name": "",
+        "url": ""
+    },
+    "slideshow":[
+        "img/portfolio/gamification-mediamatic/pic1.jpg"
+    ],
+    "titleRole": "I was Speaker",
+    "introRole": "",
+    "tasks":[
+        "Presented an introduction to \"components of motivation\" and \"game thinking\" approach in UX design, covering how to use game techniques to engage users in non-gaming environments",
+        "I shared the evening's talks with 4 other speakers",
+        "2/5 presentations were related to serious gaming"
+    ],
+    "award":{},
+    "duration": "-",
+    "people": 1,
+    "agile": false,
+    "softwareDev" :{
+        "programming" : false,
+        "techDesign" : false,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : true,
+        "ux" : true,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : false,
+        "docAnalysis" : true,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "This event was hosted by Mediamatic, a cultural institution based in Amsterdam.",
+        "I shared the stage with 4 other speakers:Antoinette Beijen, Horst Streck, Ekim Tan and Hayo Wagenaar."
+    ],
+    "team":[
+        "Solo project"
+    ],
+    "video":{},
+    "tags":[
+        "User Experience",
+        "Game thinking",
+        "Event",
+        "Psychology",
+        "Speaking",
+        "User Engagement"
+    ],
+    "relatedProjects":[
+        14,4,5,2
+    ]
+}

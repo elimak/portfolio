@@ -1,0 +1,79 @@
+{
+    "title": "Medical emergency simulator - ABCDESim",
+    "data": "data/abcdesim.json",
+    "year": 2012,
+    "by": {
+        "name": "By IjsFontein",
+        "url": "http://www.ijsfontein.nl/"
+    },
+    "for": {
+        "name": "For Erasmus MC University",
+        "url": "http://www.erasmusmc.nl/?lang=en"
+    },
+    "slideshow":[
+        "img/portfolio/abcdesim/pic1.jpg",
+        "img/portfolio/abcdesim/pic2.jpg",
+        "img/portfolio/abcdesim/pic3.jpg",
+        "img/portfolio/abcdesim/pic4.jpg"
+    ],
+    "titleRole": "I was Developer",
+    "introRole": "",
+    "tasks":[
+        "In charge of researching and defining the initial architecture to embed custom scenarios in the system",
+        "Co-responsible for the production's workflow from design implementation to beta release"
+    ],
+    "award":{
+        "description":"This project was nominated at the Dutch Game Awards 2012 and won the Dutch eLearning Award in 2013",
+        "title": "Dutch eLearning Award",
+        "year":2013
+    },
+    "duration": "6 months",
+    "people": 7,
+    "agile": true,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : true,
+        "content" : false,
+        "ux" : false,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : false,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "The project was made by IjsFontein in collaboration with Erasmus MC University",
+        "It shows a virtual emergency room where the state of a patient needs to be stabilized within 15 minutes",
+        "The game is used as a training software for medical students",
+        "The software integrates a MIT algorithm to simulate the body's state and it's reaction to drugs"
+    ],
+    "team":[
+        "Project manager: Paul Suurmeijer",
+        "Game designer: Evert Hoogendoorn",
+        "Artwork: Pieter Snijders",
+        "AS3 development: Brian Heylin and myself",
+        "Interaction Design: Paul Basten",
+        "Medical adviser: Stephanie Klein Nagelvoort-Schuit"
+    ],
+    "video":{
+        "url": "http://www.youtube.com/embed/vaT4sA1Sxq8?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque",
+        "width":460,
+        "height":345
+    },
+    "tags":[
+        "Programming",
+        "Serious Game",
+        "Flash",
+        "Internet",
+        "E-learning",
+        "Health Care Simulator"
+    ],
+    "relatedProjects":[
+        9,6,5,8,7
+    ]
+}

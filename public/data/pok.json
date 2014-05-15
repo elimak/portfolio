@@ -26,6 +26,7 @@
         "to motivate citizen in volunteering for correcting wrong geo-localized data",
         "to build meaningful communities"
     ],
+    "award":{},
     "softwareDev" :{
         "programming" : false,
         "techDesign" : false,
