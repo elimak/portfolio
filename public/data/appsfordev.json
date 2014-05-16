@@ -1,0 +1,82 @@
+{
+    "title": "Apps for Development, software competition by the World Bank",
+    "data": "data/appsfordev.json",
+    "year": 2011,
+    "by": {
+        "name": "By Elimak",
+        "url": "http://www.linkedin.com/company/elimak"
+    },
+    "for": {
+        "name": "Official website",
+        "url": "http://appsfordevelopment.challengepost.com/submissions/1545-get-a-life-game"
+    },
+    "slideshow":[
+        "img/portfolio/appsfordev/pic1.jpg",
+        "img/portfolio/appsfordev/pic2.jpg",
+        "img/portfolio/appsfordev/pic3.jpg",
+        "img/portfolio/appsfordev/pic4.jpg"
+    ],
+    "titleRole": "I was Multitasking",
+    "introRole": "",
+    "tasks":[
+        "Data retrieval from the World Bank API",
+        "Built the concept and the algorithm behind the personification of the data",
+        "Presented the specifications of the submission on a separate website",
+        "Integrated the visual design created by Loes Vrielink and the sound effects + soundtrack",
+        "Developed the final application including all animations",
+        "Integrated the app on Facebook with social sharers"
+    ],
+    "award":{
+        "description":"This project was rewarded with 14 other finalists from a large submission pool with entrants from across the globe",
+        "title": "Honorable Mention",
+        "year":"Apps for development challenge, 2011"
+    },
+    "duration": "4 months",
+    "people": "2",
+    "agile": false,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : true
+    },
+    "designManagement":{
+        "prototyping" : true,
+        "content" : true,
+        "ux" : true,
+        "pm" : true
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : true,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "As part of the World Bank’s Open Data Initiative, World Bank President Robert Zoellick kicked off the Apps for Development Competition on October 7th, 2010 that will challenge the developer community to create tools, applications, and mash-ups using World Bank data.",
+        "Our approach consisted on using graphical language of games to expose real data and invite the user to \"play & learn\""
+    ],
+    "team":[
+        "Visual design and video teaser: Loes Vrielink",
+        "Intro Soundtrack: Special thanks to Thijs Geritz for producing the introduction soundtrack for us",
+        "Everything else: myself"
+    ],
+    "video":{
+        "url": "http://www.youtube.com/embed/fzzr_hPqS1U?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque",
+        "width":870,
+        "height":500
+    },
+    "slides":{},
+    "tags":[
+        "Data-visualization",
+        "Award",
+        "Prototype",
+        "Project management",
+        "World Bank API",
+        "Competition",
+        "Data analysis",
+        "ActionScript",
+        "Programming"
+    ],
+    "relatedProjects":[
+        15,13,10,2,4
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "title": "Business strategy game - Globeaus",
+    "data": "data/deloitte.json",
+    "year": 2009,
+    "by": {
+        "name": "By Virtual Fairground",
+        "url": "http://www.linkedin.com/company/virtual-fairground"
+    },
+    "for": {
+        "name": "For Deloitte",
+        "url": "http://www.deloitte.com/"
+    },
+    "slideshow":[
+        "img/portfolio/deloitte/pic1.jpg",
+        "img/portfolio/deloitte/pic2.jpg",
+        "img/portfolio/deloitte/pic3.jpg",
+        "img/portfolio/deloitte/pic4.jpg",
+        "img/portfolio/deloitte/pic5.jpg",
+        "img/portfolio/deloitte/pic6.jpg"
+    ],
+    "titleRole": "I was Developer Lead",
+    "introRole": "",
+    "tasks":[
+        "In charge of designing the data structure and the architecture of the code base.",
+        "Responsible for connecting with the back-end API developed by Deloitte",
+        "Responsible for the production's workflow from design implementation to final delivery"
+    ],
+    "award":{},
+    "duration": "3.5 months",
+    "people": 6,
+    "agile": true,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : true
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : false,
+        "ux" : false,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : false,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "The project was made by VirtualFairground in collaboration with Deloitte.",
+        "It shows virtual world where the players can manage their investment in 4 different markets and simulate their business growth",
+        "The game is used into workshops as an e-learning application",
+        "The users can play on single-player or multi-player mode"
+    ],
+    "team":[
+        "Project manager: Stijn Colen",
+        "Game designer: Anko Elzes",
+        "Artwork: Theo Hanegraaf",
+        "AS3 development: Meinte van 't Kruis and myself",
+        "Design implementation + animation: Rob Postema"
+    ],
+    "video":{
+        "url": "http://www.youtube.com/embed/LCgzRbzpgDE?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque",
+        "width":460,
+        "height":345
+    },
+    "slides":{},
+    "tags":[
+        "Programming",
+        "Serious Game",
+        "Flash",
+        "Internet",
+        "E-learning",
+        "Business Simulation"
+    ],
+    "relatedProjects":[
+        6,7,12,5,8
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "title": "Workshop on cross-platform game development - Haxe",
+    "data": "data/haxe-workshop.json",
+    "year": 2012,
+    "by": {
+        "name": "By Elimak",
+        "url": "http://www.linkedin.com/company/elimak"
+    },
+    "for": {
+        "name": "For the Open-Source community",
+        "url": "https://code.google.com/p/awe6/"
+    },
+    "slideshow":[
+        "img/portfolio/haxe-workshop/pic1.jpg",
+        "img/portfolio/haxe-workshop/pic2.jpg",
+        "img/portfolio/haxe-workshop/pic3.jpg",
+        "img/portfolio/haxe-workshop/pic4.jpg"
+    ],
+    "titleRole": "I did it all!",
+    "introRole": "",
+    "tasks":[
+        "Prepared the resources: examples code source and the presentation slides",
+        "Validated the resources with the author of the framework used: awe6",
+        "Conducted the sessions in Amsterdam and in Paris"
+    ],
+    "award":{},
+    "duration": "1 month",
+    "people": 1,
+    "agile": false,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : true,
+        "ux" : false,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : true,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "The workshop includes several examples and 2 project samples - all written by myself",
+        "My resources were validated by Robert Fell who wrote the framework \"awe6\"",
+        "The workshop was 4 hours long and was given in French and in English",
+        "The workshops were free and the resources remain Open-Source"
+    ],
+    "team":[
+        "I conducted this project by myself, but I would like to thanks the following people for their support:"
+        "Robert Fell for validating my resources and guiding me during the writing process",
+        "Fonk Mobile for hosting the sessions in Amsterdam",
+        "Silex-labs for hosting the sessions in Paris",
+        "All the attendees for their participation and feedback"
+    ],
+    "video":{},
+    "slides":{
+        "url":"https://docs.google.com/presentation/embed?id=1Y4430D6nctP31bI7rR0IbrCU6yt-DwF7PAKSnxTOZp4&start=false&loop=false&delayms=3000",
+        "width":550,
+        "height":430
+    },
+    "tags":[
+        "Workshop",
+        "Haxe",
+        "Awe6",
+        "Paris",
+        "Cross-platform",
+        "Amsterdam",
+        "Presentation"
+    ],
+    "relatedProjects":[
+        14,11,4,2
+    ]
+}

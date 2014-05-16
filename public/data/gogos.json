@@ -1,0 +1,75 @@
+{
+    "title": "Stop Motion editor - Gogo's",
+    "data": "data/gogos.json",
+    "year": 2011,
+    "by": {
+        "name": "By NoProtocol",
+        "url": "http://noprotocol.nl/"
+    },
+    "for": {
+        "name": "And Noise",
+        "url": "http://makesomenoise.nl/"
+    },
+    "slideshow":[
+        "img/portfolio/gogos/pic1.jpg",
+        "img/portfolio/gogos/pic2.jpg",
+        "img/portfolio/gogos/pic3.jpg"
+    ],
+    "titleRole": "I was Developer",
+    "introRole": "",
+    "tasks":[
+        "In charge of creating the online editor with the ability to generate video movies for youtube",
+        "Together with the back-end developer, we built a system front-end/back-end capable to re-synchronize frame rate and soundtrack on the server in order to optimize the processing time and the bandwidth usage"
+    ],
+    "award":{},
+    "duration": "1 month",
+    "people": "4",
+    "agile": true,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : true,
+        "content" : false,
+        "ux" : false,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : false,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "The project was made by NoProtocol & Noise for the supermarket C1000",
+        "It allowed kids to participate on a contest creating their own video / stop motion clips",
+        "The whole campaign was trans-media: TV, iPhone app, online website and online video editor",
+        "The editor itself involved the work of 4 people but the overall campaign required the talent of 20+ people"
+    ],
+    "team":[
+        "Project manager: Paul Stomp",
+        "Visual design: Tino Nooten",
+        "Back-end development: Berry Goudswaard",
+        "Front-end development: myself"
+    ],
+    "video":{
+        "url": "http://www.youtube.com/embed/8dWBHKMlC-c?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque",
+        "width":870,
+        "height":500
+    },
+    "slides":{},
+    "tags":[
+        "Online",
+        "Video editor",
+        "Tool",
+        "Programming",
+        "Flash",
+        "Game",
+        "Youtube",
+        "Trans-media"
+    ],
+    "relatedProjects":[
+        12,6,15,13,10
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "title": "Ecostream user's dashboard",
+    "data": "data/ecostream.json",
+    "year": 2010,
+    "by": {
+        "name": "By Edenspiekermann",
+        "url": "http://edenspiekermann.com/"
+    },
+    "for": {
+        "name": "For Eneco",
+        "url": "http://eneco.nl/"
+    },
+    "slideshow":[
+        "img/portfolio/ecostream/pic3.jpg",
+        "img/portfolio/ecostream/pic1.jpg",
+        "img/portfolio/ecostream/pic2.jpg"
+    ],
+    "titleRole": "I was Developer / Prototyper",
+    "introRole": "",
+    "tasks":[
+        "In charge of creating the interactive prototypes for the analytic tool",
+        "Responsible for developing the final tool connecting with the live data"
+    ],
+    "award":{},
+    "duration": "1 month",
+    "people": 4,
+    "agile": true,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : true,
+        "content" : false,
+        "ux" : true,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : false,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "The project was designed by Edenspiekermann for the energy company Eneco",
+        "It shows several analytic tools to monitor the production of energy by household equipped with solar panels",
+        "The initial phase was focused on prototyping the navigation through the data, moving from year to month, week and day",
+        "The data was held by a third-party company, therefore the final product was developed in order to connect with the API of this company's services"
+    ],
+    "team":[
+        "Project manager: Stijn Verhoeven",
+        "Interaction and visual design: Nick van der Linde",
+        "Prototype and AS3 development: myself",
+        "AS3 development: Brian Heylin and myself",
+        "Back-end: Third-party company"
+    ],
+    "video":{},
+    "slides":{},
+    "tags":[
+        "Programming",
+        "Data-visualization",
+        "Flash",
+        "Analytics",
+        "ActionScript",
+        "UX Design",
+        "Prototype",
+        "Customer dashboard"
+    ],
+    "relatedProjects":[
+        3,16,13,4,6
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "title": "MMO Game - Club Galactik Football",
+    "data": "data/clubgalactik.json",
+    "year": 2009-2010,
+    "by": {
+        "name": "By Virtual Fairground",
+        "url": "http://www.linkedin.com/company/virtual-fairground"
+    },
+    "for": {
+        "name": "",
+        "url": ""
+    },
+    "slideshow":[
+        "img/portfolio/clubgalactik/pic1.jpg",
+        "img/portfolio/clubgalactik/pic2.jpg",
+        "img/portfolio/clubgalactik/pic3.jpg",
+        "img/portfolio/clubgalactik/pic4.jpg",
+        "img/portfolio/clubgalactik/pic5.jpg"
+    ],
+    "titleRole": "I was Developer Lead",
+    "introRole": "",
+    "tasks":[
+        "In charge of researching and defining the initial modular architecture",
+        "Co-responsible for the production of the 2D UIs"
+    ],
+    "award":{},
+    "duration": "1 year",
+    "people": "40+",
+    "agile": true,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : true,
+        "techLead" : true
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : false,
+        "ux" : false,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : true,
+        "docAnalysis" : false,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "The project was made by VirtualFairground",
+        "It was a massive multi-player online game running on top of the famous away3D library",
+        "The game was highly customizable and contained 4 races of avatar",
+        "The game was internationally played and was available in 6 languages",
+        "There was a parental control system allowing a restricted / controlled access for children below 13 years old"
+    ],
+    "team":[
+        "I participated in developing this game together with 14 excellent programmers (AS3, Java and C++) and a dozen of talented visual and 3D artists"
+    ],
+    "video":{
+        "url": "http://www.youtube.com/embed/aWKxQRvyeRE?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque",
+        "width":870,
+        "height":500
+    },
+    "slides":{},
+    "tags":[
+        "Programming",
+        "MMO",
+        "Game",
+        "Flex",
+        "Multi-player",
+        "3D engine",
+        "Internet",
+        "Online",
+        "International"
+    ],
+    "relatedProjects":[
+        12,9,5,6,7
+    ]
+}
