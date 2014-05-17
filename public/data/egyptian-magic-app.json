@@ -1,0 +1,69 @@
+{
+    "title": "\"Egyptian Magic\" app",
+    "data": "data/egyptian-magic-app.json",
+    "year": 2011,
+    "by": {
+        "name": "In collaboration with InfoFilm",
+        "url": "http://www.infofilm.nl/"
+    },
+    "for": {
+        "name": "For the Rijksmuseum van Oudheden of Leiden",
+        "url": "http://www.rmo.nl/"
+    },
+    "slideshow":[
+        "img/portfolio/touch-egypt/pic1.jpg",
+        "img/portfolio/touch-egypt/pic2.jpg",
+        "img/portfolio/touch-egypt/pic3.jpg"
+    ],
+    "titleRole": "I was Designer and Developer",
+    "introRole": "",
+    "tasks":[
+        "In charge of the visual design of the touch screen (using the current communication's guideline)",
+        "Responsible for the production of the interactive touch screen"
+    ],
+    "award":{},
+    "duration": "2 weeks",
+    "people": 2,
+    "agile": false,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : false,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : false,
+        "ux" : true,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : false,
+        "docAnalysis" : false,
+        "mobileTablets" : true
+    },
+    "projectDescription" :[
+        "The project was made by Elimak in collaboration with InfoFilm",
+        "It was displayed in the museum of Leiden (The Netherlands) during the exhibition",
+        "It was designed specifically for touch-screens",
+        "The application ran for 3 months long without discontinuation"
+    ],
+    "team":[
+        "Roger Busschots, from InfoFilm, collected the texts and realized the video",
+        "I created and integrated the application at the Museum"
+    ],
+    "video":{
+        "url": "http://www.youtube.com/embed/8alIiWOt-zQ?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque",
+        "width":870,
+        "height":500
+    },
+    "slides":{},
+    "tags":[
+        "Programming",
+        "Museum",
+        "Touch Screen",
+        "Flash"
+    ],
+    "relatedProjects":[
+        15,7,10,13,16,3
+    ]
+}

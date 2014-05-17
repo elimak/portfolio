@@ -1,0 +1,68 @@
+{
+    "title": "Speaking at WWX Haxe: presentation of 2 side projects related to data",
+    "data": "data/wwx.json",
+    "year": 2012,
+    "by": {
+        "name": "By Elimak",
+        "url": "http://www.linkedin.com/company/elimak"
+    },
+    "for": {
+        "name": "For the WWX Haxe conference",
+        "url": "http://wwx.silexlabs.org/2013/"
+    },
+    "slideshow":[
+        "img/portfolio/wwx/pic1.jpg",
+        "img/portfolio/wwx/pic6.jpg",
+        "img/portfolio/wwx/pic2.jpg",
+        "img/portfolio/wwx/pic3.jpg",
+        "img/portfolio/wwx/pic5.jpg",
+        "img/portfolio/wwx/pic4.jpg"
+    ],
+    "titleRole": "I was Developer",
+    "introRole": "I explained how I used Haxe/Neko to analyse the data and extract meaningful information during the initial phase. My talk covered:",
+    "tasks":[
+        "2 side projects I worked on during my spare time",
+        "1 project created for UNESCO, institute for statistics"
+    ],
+    "award":{},
+    "duration": "-",
+    "people": 1,
+    "agile": false,
+    "softwareDev" :{
+        "programming" : true,
+        "techDesign" : false,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : true,
+        "ux" : false,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : false,
+        "docAnalysis" : true,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "The event took place in Paris in spring 2013 and was organized by SilexLabs and the Haxe Foundation",
+        "There were 14 speakers sharing the stage",
+        "The event lasted 3 days including 1 days of workshop"
+    ],
+    "team":[
+        "Solo project"
+    ],
+    "video":{},
+    "slides":{},
+    "tags":[
+        "Event",
+        "Data analysis",
+        "Haxe",
+        "Processing data",
+        "Presentation",
+        "Data-visualization"
+    ],
+    "relatedProjects":[
+        5,14,11,4
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "title": "Ecostream user's dashboard",
-    "data": "data/ecostream.json",
+    "data": "data/facebook-ecostream.json",
     "year": 2010,
     "by": {
         "name": "By Edenspiekermann",
@@ -11,29 +11,28 @@
         "url": "http://eneco.nl/"
     },
     "slideshow":[
-        "img/portfolio/ecostream/pic3.jpg",
-        "img/portfolio/ecostream/pic1.jpg",
-        "img/portfolio/ecostream/pic2.jpg"
+        "img/portfolio/facebook-ecostream/pic3.jpg",
+        "img/portfolio/facebook-ecostream/pic2.jpg",
+        "img/portfolio/facebook-ecostream/pic1.jpg"
     ],
-    "titleRole": "I was Developer / Prototyper",
+    "titleRole": "I was Developer",
     "introRole": "",
     "tasks":[
-        "In charge of creating the interactive prototypes for the analytic tool",
-        "Responsible for developing the final tool connecting with the live data"
+        "Responsible for developing the application for Facebook and integrating the live data"
     ],
     "award":{},
-    "duration": "1 month",
+    "duration": "3 weeks",
     "people": 4,
-    "agile": true,
+    "agile": false,
     "softwareDev" :{
         "programming" : true,
-        "techDesign" : true,
+        "techDesign" : false,
         "techLead" : false
     },
     "designManagement":{
         "prototyping" : true,
         "content" : false,
-        "ux" : true,
+        "ux" : false,
         "pm" : false
     },
     "platform":{
@@ -43,8 +42,7 @@
     },
     "projectDescription" :[
         "The project was designed by Edenspiekermann for the energy company Eneco",
-        "It shows several analytic tools to monitor the production of energy by household equipped with solar panels",
-        "The initial phase was focused on prototyping the navigation through the data, moving from year to month, week and day",
+        "It is an integrated Facebook application to monitor the production of energy by household equipped with solar panels",
         "The data was held by a third-party company, therefore the final product was developed in order to connect with the API of this company's services"
     ],
     "team":[
@@ -56,14 +54,16 @@
     "video":{},
     "slides":{},
     "tags":[
-        "Facebook",
         "Programming",
-        "Solar energy",
-        "Social Media",
+        "Data-visualization",
+        "Flash",
+        "Analytics",
         "ActionScript",
-        "Prototype"
+        "UX Design",
+        "Prototype",
+        "Customer dashboard"
     ],
     "relatedProjects":[
-        10,16,15,13,1,7
+        3,16,13,4,6
     ]
 }

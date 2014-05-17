@@ -1,0 +1,61 @@
+{
+    "title": "Barcamp Speaker, data-visualization",
+    "data": "opendata-mediamatic.json",
+    "year": 2011,
+    "by": {
+        "name": "At Mediamatic",
+        "url": "http://www.mediamatic.net/"
+    },
+    "for": {
+        "name": "",
+        "url": ""
+    },
+    "slideshow":[
+        "img/portfolio/opendata-mediamatic/pic1.jpg",
+        "img/portfolio/opendata-mediamatic/pic2.jpg"
+    ],
+    "titleRole": "I was Speaker",
+    "introRole": "",
+    "tasks":[
+        "Presented the submission I did for the \"Apps for development\" challenge"
+    ],
+    "award":{},
+    "duration": "-",
+    "people": 1,
+    "agile": false,
+    "softwareDev" :{
+        "programming" : false,
+        "techDesign" : false,
+        "techLead" : false
+    },
+    "designManagement":{
+        "prototyping" : false,
+        "content" : true,
+        "ux" : false,
+        "pm" : false
+    },
+    "platform":{
+        "internetIntranet" : false,
+        "docAnalysis" : true,
+        "mobileTablets" : false
+    },
+    "projectDescription" :[
+        "There's loads of data available nowadays. What to do with it? How to present it on a useful and interesting way? Which tools to use to achieve all this?",
+        "My talk covered the benefit of using the game environment to disseminate data to an audience of a wide age range, using my experience with the \"Apps for Development\" software challenge."
+    ],
+    "team":[
+        "Solo project"
+    ],
+    "video":{},
+    "slides":{},
+    "tags":[
+        "Open-data",
+        "Data-visualization",
+        "Presentation",
+        "Apps for development",
+        "Mash-up"
+    ],
+    "relatedProjects":[
+        6,14,11,5,15
+    ]
+}

@@ -170,7 +170,7 @@
         "description": "Browse papyrus texts related to magic.",
         "thumbnail": "img/portfolio/touch-egypt/touch-egypt_thumb.jpg",
         "image": "img/portfolio/touch-egypt/touch-egypt.jpg",
-        "data": "data/education-unesco.json",
+        "data": "data/egyptian-magic-app.json",
         "category": ["info"],
         "role": ["programming", "ux"],
         "id":"1"
