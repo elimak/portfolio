@@ -145,6 +145,7 @@ define([
 
         mapStateResponders: function() {
             this.njs.add(new PortfolioDataResponder({injector:this.injector}), States.ALL.STATES);
+            this.njs.add(new PortfolioPostDataResponder({injector:this.injector}), States.PORTFOLIO_POST);
         },
 
         mapStates: function() {

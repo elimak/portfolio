@@ -17,6 +17,7 @@ define([
 
         njs: 'inject',
         randomPortfolioModel: 'inject',
+        portfolioModel: 'inject',
 
         $tweet:"",
 
@@ -25,7 +26,7 @@ define([
             this.$el.addClass("container");
 
             this.listenTo(this.randomPortfolioModel, "change:randomPortfolio", this.render);
-            this.render();
+            //this.render();
         },
 
         events: {
@@ -35,7 +36,8 @@ define([
         _onRequestPortfolioItem: function(e){
              e.preventDefault();
              var state = $(e.target).attr('href');
-             console.log(state);
+             var data = $(e.target).attr('data');
+             this.portfolioModel.set({selected:{data:data}} );
              this.njs.request(state);
         },
 

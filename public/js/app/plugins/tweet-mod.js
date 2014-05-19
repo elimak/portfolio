@@ -3,10 +3,6 @@
 // Copyright (c) 2008-2012 Todd Matthews & Steve Purcell
 // Modified by Stan Scates for https://github.com/StanScates/Tweet.js-Mod
 
-// jquery.tweet.js - See http://tweet.seaofclouds.com/ or https://github.com/seaofclouds/tweet for more info
-// Copyright (c) 2008-2012 Todd Matthews & Steve Purcell
-// Modified by Stan Scates for https://github.com/StanScates/Tweet.js-Mod
-
 (function (factory) {
     if (typeof define === 'function' && define.amd)
         define(['jquery'], factory); // AMD support for RequireJS etc.

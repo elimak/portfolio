@@ -1,1 +1,216 @@
-<h1>Portfolio Post</h1>
+<!-- CONTENT -->
+<div class="fl-container span9">
+<div class="row">
+<div class="posts-block span9">
+<div class="contentarea">
+<div class="row-fluid">
+<div class="span12 module_cont module_blog module_none_padding">
+
+    <div class="blog_post_preview">
+        <div class="blog_head">
+            <span class="blogpost_type_ico post_type_image"></span>
+            <div class="bg_title"><h4>{{title}}</h4></div>
+            <div class="blogpost_meta">
+                <span>{{year}}</span>
+                <span><a href="{{by.url}}" target="_blank">{{by.name}}</a></span>
+                <span><a href="{{for.url}}" target="_blank">{{for.name}}</a></span>
+            </div>
+        </div><!-- .blog_head -->
+        <div class="featured_image_full">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                {{#slideshow}}
+                    <img src="{{this}}" data-thumb="{{this}}" alt="" />
+                {{/slideshow}}
+                </div>
+                <div class="nivo-controlNav"><a class="nivo-control active" rel="0">1</a><a class="nivo-control" rel="1">2</a><a class="nivo-control" rel="2">3</a><a class="nivo-control" rel="3">4</a></div>
+                <div class="img_inset"></div>
+            </div><!-- .slider-wrapper  -->
+        </div><!-- .featured_image_full -->
+
+        <article class="contentarea">
+            </br><h5>{{titleRole}}</h5>
+            {{#if introRole}}{{introRole}} {{/if}}
+            <ul class="list_type1">
+            {{#tasks}}
+                <li>{{this}}</li>
+            {{/tasks}}
+            </ul>
+
+        </article>
+
+        {{#isNotEmptyObj award}}
+        <div class="row-fluid">
+            <div class="span12 module_cont module_testimonial">
+                <div class="module_content blockquote testimonials_list carouselslider items1" data-count="1">
+                    <ul>
+                        <li>
+                            <div class="item">
+                                <div class="testimonials_photo">
+                                    <img src="img/icons/award.png" width="50" height="70" alt="">
+                                </div>
+                                <div class="testimonials_text">
+                                    <p>{{award.description}}</p>
+                                    <span class="author">{{award.title}}</span><span class="company">{{award.year}}</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {{/isNotEmptyObj}}
+
+        </br><h5>Project breakdown</h5>
+        <div class="row-fluid">
+            <div class="span12 module_price_table">
+                <div class="price_table_wrapper">
+                    <div class="price_item" style="width:25%">
+                        <div class="price_item_wrapper">
+                            <div class="price_item_title"><h6>Year realized</h6></div>
+                            <div class="project price_item_text">2012</div>
+                        </div>
+                    </div>
+                    <div class="price_item" style="width:25%">
+                        <div class="price_item_wrapper">
+                            <div class="price_item_title"><h6>Duration</h6></div>
+                            <div class="project price_item_text">6 months</div>
+                        </div>
+                    </div>
+                    <div class="price_item" style="width:25%">
+                        <div class="price_item_wrapper">
+                            <div class="price_item_title"><h6>People involved</h6></div>
+                            <div class="project price_item_text">7</div>
+                        </div>
+                    </div>
+                    <div class="price_item" style="width:25%">
+                        <div class="price_item_wrapper">
+                            <div class="price_item_title"><h6>Agile process</h6></div>
+                            <div class="project price_item_text">Yes</div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div><!-- .price_table_wrapper -->
+            </div><!-- .module_cont -->
+        </div><!-- .row-fluid -->
+
+        <div class="row-fluid">
+            <div class="breakdown span12 module_price_table">
+                <div class="price_table_wrapper">
+                    <div class="price_item" style="width:33%">
+                        <div class="price_item_wrapper">
+                            <div class="engineering price_item_title"><h6>Software engineering</h6></div>
+                            <div class="engineering price_item_text">Programming</div>
+                            <div class="engineering price_item_text">Technical Design</div>
+                            <div class="price_item_text">Technical leadership</div>
+                            <div class="price_item_text">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="price_item" style="width:34%">
+                        <div class="price_item_wrapper">
+                            <div class="design price_item_title"><h6>Design & Management</h6></div>
+                            <div class="design price_item_text">Prototyping</div>
+                            <div class="price_item_text">Content strategy / writing</div>
+                            <div class="price_item_text">User Experience Design</div>
+                            <div class="price_item_text">Project Management</div>
+                        </div>
+                    </div>
+                    <div class="price_item" style="width:33%">
+                        <div class="price_item_wrapper">
+                            <div class="support price_item_title"><h6>Support / Platform</h6></div>
+                            <div class="support price_item_text">Internet, Intranet, Facebook</div>
+                            <div class="price_item_text">Doc, analysis, presentation</div>
+                            <div class="price_item_text">Mobile, tablets, touch-enabled</div>
+                            <div class="price_item_text">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div><!-- .price_table_wrapper -->
+            </div><!-- .module_cont -->
+        </div><!-- .row-fluid -->
+        <p>* Colored cells = my role in the project</p>
+
+        <div class="row-fluid">
+            <div class="span12 module_cont module_tabs module_small_padding">
+                <div class="shortcode_tabs type2">
+                    <div class="all_heads_cont">
+                        <div class="shortcode_tab_item_title active">Project description</div>
+                        <div class="shortcode_tab_item_title">Team</div>
+                    </div>
+                    <div class="all_body_cont">
+                        <div class="shortcode_tab_item_body">
+                            <div class="ip">
+                                <ul class="list_type1">
+                                    <li>The project was made by IjsFontein in collaboration with Erasmus MC University</li>
+                                    <li>It shows a virtual emergency room where the state of a patient needs to be stabilized within 15 minutes</li>
+                                    <li>The game is used as a training software for medical students</li>
+                                    <li>The software integrates a MIT algorithm to simulate the body's state and it's reaction to drugs</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="shortcode_tab_item_body">
+                            <div class="ip">
+                                <ul class="list_type2">
+                                    <li>Project manager: Paul Suurmeijer</li>
+                                    <li>Game designer: Evert Hoogendoorn</li>
+                                    <li>Artwork: Pieter Snijders</li>
+                                    <li>AS3 development: Brian Heylin and myself</li>
+                                    <li>Interaction Design: Paul Basten</li>
+                                    <li>Medical adviser: Stephanie Klein Nagelvoort-Schuit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .shortcode_tabs -->
+                <script type="text/javascript">
+                    //<![CDATA[
+                    jQuery('.shortcode_tabs').each(function(index) {
+                        /* GET ALL HEADERS */
+                        var i = 1;
+                        jQuery('.shortcode_tab_item_title').each(function(index) {
+                            jQuery(this).addClass('it'+i); jQuery(this).attr('data-open', 'body'+i);
+                            jQuery(this).addClass('head'+i);
+                            jQuery(this).parents('.shortcode_tabs').find('.all_heads_cont').append(this);
+                            i++;
+                        });
+                        /* GET ALL BODY */
+                        var i = 1;
+                        jQuery('.shortcode_tab_item_body').each(function(index) {
+                            jQuery(this).addClass('body'+i);
+                            jQuery(this).addClass('it'+i);
+                            jQuery(this).parents('.shortcode_tabs').find('.all_body_cont').append(this);
+                            i++;
+                        });
+                    });
+                    jQuery('.shortcode_tabs .all_body_cont div:first-child').addClass('active');
+                    jQuery('.shortcode_tabs .all_heads_cont div:first-child').addClass('active');
+
+                    jQuery('.shortcode_tab_item_title').click(function(){
+                        jQuery(this).parents('.shortcode_tabs').find('.shortcode_tab_item_body').removeClass('active');
+                        jQuery(this).parents('.shortcode_tabs').find('.shortcode_tab_item_title').removeClass('active');
+                        var whatopen = jQuery(this).attr('data-open');
+                        jQuery(this).parents('.shortcode_tabs').find('.'+whatopen).addClass('active');
+                        jQuery(this).addClass('active');
+                    });
+                    //]]
+                </script>
+                <a id="anchor10"></a>
+            </div><!-- .module_cont -->
+        </div><!-- .row-fluid -->
+
+        <div class="row-fluid">
+            <div class="span12 module_cont module_video">
+                <div class="bg_title"><h5 class="headInModule">trailer</h5></div>
+                <iframe width="460" height="345" src="http://www.youtube.com/embed/vaT4sA1Sxq8?controls=1&amp;showinfo=0&amp;modestbranding=1&amp;wmode=opaque" allowfullscreen></iframe>
+            </div><!--.module_cont -->
+            <div class="clear"><!-- ClearFIX --></div>
+        </div><!-- .row-fluid -->
+
+    </div><!--.blog_post_preview -->
+</div>
+</div><!-- .row-fluid -->
+
+</div><!-- .contentarea -->
+</div>
+</div>
+</div>

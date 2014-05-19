@@ -15,14 +15,22 @@ define([
         className: 'portfolioPostView',
 
         njs: 'inject',
+        portfolioPostModel: 'inject',
 
         initialize: function() {
             this.$el.css({display:'none'});
-            this.render();
+            this.$el.addClass("content_block right-sidebar row");
+            this.listenTo(this.portfolioPostModel, "change:post", this.render);
         },
 
         render: function() {
-            this.$el.html(template({}));
+            this.$el.html(template(this.portfolioPostModel.get("post")));
+            this.$el.find('#slider').nivoSlider({
+                directionNavHide:false,
+                effect:'fade',
+                pauseTime:4000,
+                slices: 1
+            });
             return this;
         },
 

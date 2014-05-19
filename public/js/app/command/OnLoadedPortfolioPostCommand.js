@@ -16,9 +16,7 @@ define([
         execute:function () {
 
             if( this.portfolioPostService.get("data") === null ) return;
-
-            this.portfolioPostModel.reset();
-            this.portfolioPostModel.parse(this.portfolioPostService.get("data"));
+            this.portfolioPostModel.set("post", this.portfolioPostService.get("data"));
         }
     });
 

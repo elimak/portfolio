@@ -1,6 +1,6 @@
 {
     "title": "Barcamp Speaker, data-visualization",
-    "data": "opendata-mediamatic.json",
+    "data": "data/opendata-mediamatic.json",
     "year": 2011,
     "by": {
         "name": "At Mediamatic",

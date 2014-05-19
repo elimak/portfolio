@@ -39,6 +39,7 @@ requirejs.config({
         "stats":"../vendors/stats.js/src/Stats",
         "handlebars-helpers":"plugins/handlebars-helpers",
         "tweet-mod":"plugins/tweet-mod",
+        "jquery-nivo":"plugins/jquery-nivo",
         "templates":"../templates"
     },
 
@@ -122,6 +123,7 @@ require([
     "enquire",
     "stats",
     "handlebars-helpers",
+    "jquery-nivo",
     "tweet-mod"
 ], function(ApplicationContext) {
     //Enforce loading globally used libraries and kicking application off

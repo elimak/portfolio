@@ -173,9 +173,9 @@ module.exports = function (grunt) {
 		},
 
 		open: {
-			staging: { path: 'dev.elimak.com/portfolio/files/tmp/grunt/staging/' + now },
-			"staging-zip": { path: 'dev.elimak.com/portfolio/files/tmp/grunt/staging/zip/' + now +".zip" },
-			production: { path: 'dev.elimak.com/portfolio/files/tmp/grunt/production/' }
+			staging: { path: 'dev.elimak.com/portfolio/staging/' + now },
+			"staging-zip": { path: 'dev.elimak.com/portfolio/staging/zip/' + now +".zip" },
+			production: { path: 'dev.elimak.com/portfolio/production/' }
 		},
 
 		compass: {
@@ -199,7 +199,18 @@ module.exports = function (grunt) {
 					config: 'sass/config.rb'
 				}
 			}
-		}
+		},
+
+        replace: {
+            base_path_staging: {
+                src: ['tmp/deploy/index.html'],
+                overwrite: true,
+                replacements: [{
+                    from: '<base href="/" />',
+                    to: '<base href="/portfolio/staging/' + now +'/" />'
+                }]
+            }
+        }
 
 	});
 
@@ -215,6 +226,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-ftp-deploy');
 	grunt.loadNpmTasks('grunt-open');
 	grunt.loadNpmTasks('grunt-contrib-compass');
+	grunt.loadNpmTasks('grunt-text-replace');
 
 	grunt.registerTask('default', ['deploy']);
 
@@ -232,7 +244,7 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('deploy:local', ['deploy', 'configureRewriteRules','connect:deploy']);
 
-	grunt.registerTask('deploy:staging', ['deploy', 'ftp-deploy:staging', 'open:staging']);
+	grunt.registerTask('deploy:staging', ['deploy', 'replace:base_path_staging', 'ftp-deploy:staging', 'open:staging']);
 	grunt.registerTask('deploy:staging:zip', ['deploy:zip', 'copy:deploy-zip-as-now', 'ftp-deploy:staging-zip', 'open:staging-zip']);
 	grunt.registerTask('deploy:staging:full', ['deploy:staging', 'deploy:staging:zip']);
 

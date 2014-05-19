@@ -38,6 +38,9 @@ define([
             this.portfolioPostService.off("complete", this.onPreparedValidation);
             this.portfolioPostService.once("complete", this.onPreparedValidation);
             var selectedModel = this.portfolioModel.get('selected');
+            // TODO:
+            // if selectedModel.selected doesnt exist, then probably the user enter the website directly
+            // with the post's url - so we need to evaluate this
             this.portfolioPostService.load(selectedModel.data);
         },
 
@@ -49,10 +52,12 @@ define([
 
         validate: function(truncatedState, fullState) {
             var selectedModel = this.portfolioModel.get('selected');
-            return selectedModel.data ==  this.portfolioPostModel.get("data");
+            console.log(selectedModel.data+" ==? "+this.portfolioPostModel.get("post").data);
+            return selectedModel.data ==  this.portfolioPostModel.get("post").data;
         },
 
         redirect: function(truncatedState, fullState) {
+            console.log("request redirect? "+fullState.getPath());
             return States.NOT_FOUND;
         }
     });
